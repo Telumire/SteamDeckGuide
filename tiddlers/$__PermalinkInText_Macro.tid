@@ -1,8 +1,0 @@
-created: 20220830170327008
-creator: Telumire
-modified: 20220830232513410
-modifier: Telumire
-tags: $:/tags/Macro
-title: $:/PermalinkInText/Macro
-
-\define #(tiddler,class:"float-left") <span class="tc-tiddler-controls $class$">{{$tiddler$||$:/core/ui/Buttons/permalink}}</span>
