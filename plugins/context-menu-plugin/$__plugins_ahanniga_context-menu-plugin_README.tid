@@ -1,0 +1,34 @@
+title: $:/plugins/ahanniga/context-menu-plugin/README
+
+\define plugin() $:/plugins/ahanniga/context-menu-plugin
+\define install()
+<$list
+  filter="[<transclusion>prefix[{$(plugin)$/README|$(plugin)$/README|||}]]"
+  emptyMessage="$(plugin)$"
+>
+{{ $(plugin)$||$:/core/ui/Components/plugin-info }}
+</$list>
+\end
+
+!! Context menus for tiddlers
+
+Right-click (or long-press on phone/tablet) to display a menu
+
+!!! Configuration
+
+Use this tag selector to show or reorder menu options: {{$:/tags/tiddlercontextmenu||$:/core/ui/TagTemplate}}
+
+* If the `separate-after` field exists, the option be followed by a menu separator
+* Visibility of the option is determined by the text of the tiddler: "show" | "hide"
+
+Custom handling can be done by overriding the $:/plugins/ahanniga/context-menu/ContextListener.js tiddler.
+
+Custom styling can be  it by overriding the $:/plugins/ahanniga/context-menu/styles.css tiddler.
+
+!!! Installation
+
+[[Manually install|https://tiddlywiki.com/#Manually%20installing%20a%20plugin]] the plugin by dragging this link to your ~TiddlyWiki:
+
+<<install>>
+
+Then save and refresh your ~TiddlyWiki.

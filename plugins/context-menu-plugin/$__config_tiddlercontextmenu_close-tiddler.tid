@@ -1,0 +1,11 @@
+caption: Close Tiddler
+created: 20220729205123079
+icon: $:/core/images/close-button
+modified: 20220730005231520
+separate-after: 
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/close-tiddler
+tm-message: tm-close-tiddler
+type: text/vnd.tiddlywiki
+
+show

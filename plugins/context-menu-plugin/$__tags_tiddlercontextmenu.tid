@@ -1,0 +1,5 @@
+created: 20220729212214576
+list: $:/config/tiddlercontextmenu/new-here $:/config/tiddlercontextmenu/edit-tiddler $:/config/tiddlercontextmenu/close-tiddler $:/config/tiddlercontextmenu/close-other-tiddlers $:/config/tiddlercontextmenu/copy-to-clipboard $:/config/tiddlercontextmenu/fold-tiddler $:/config/tiddlercontextmenu/fold-all-tiddlers $:/config/tiddlercontextmenu/fold-other-tiddlers $:/config/tiddlercontextmenu/unfold-all-tiddlers $:/config/tiddlercontextmenu/print $:/config/tiddlercontextmenu/delete-tiddler $:/config/tiddlercontextmenu/print-river
+modified: 20220729235711483
+title: $:/tags/tiddlercontextmenu
+type: text/vnd.tiddlywiki

@@ -1,0 +1,10 @@
+caption: Toggle Fold
+created: 20220729215839423
+icon: $:/core/images/fold-button
+modified: 20220730005515602
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/fold-tiddler
+tm-message: tm-fold-tiddler
+type: text/vnd.tiddlywiki
+
+show

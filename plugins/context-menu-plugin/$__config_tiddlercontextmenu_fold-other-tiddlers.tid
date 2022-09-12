@@ -1,0 +1,11 @@
+caption: Fold Others
+created: 20220729215431456
+icon: $:/core/images/fold-others-button
+modified: 20220730100115989
+separate-after: 
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/fold-other-tiddlers
+tm-message: tm-fold-other-tiddlers
+type: text/vnd.tiddlywiki
+
+show

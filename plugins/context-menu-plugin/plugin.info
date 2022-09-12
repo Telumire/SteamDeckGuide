@@ -1,0 +1,11 @@
+{
+    "title": "$:/plugins/ahanniga/context-menu-plugin",
+    "description": "Configurable context menus for tiddlers",
+    "author": "A Hannigan",
+    "version": "0.8.1",
+    "core-version": ">=5.0.0",
+    "source": "https://github.com/ahanniga/tiddlywiki-context-menu-plugin",
+    "plugin-type": "plugin",
+    "list": "README License",
+    "dependents": ""
+}

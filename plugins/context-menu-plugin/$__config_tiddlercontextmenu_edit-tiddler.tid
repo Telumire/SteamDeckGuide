@@ -1,0 +1,10 @@
+caption: Edit
+created: 20220729214907560
+icon: $:/core/images/edit-button
+modified: 20220730005405279
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/edit-tiddler
+tm-message: tm-edit-tiddler
+type: text/vnd.tiddlywiki
+
+show

@@ -1,0 +1,7 @@
+caption: New Here
+icon: $:/core/images/new-here-button
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/new-here
+tm-message: tm-new-here
+
+show

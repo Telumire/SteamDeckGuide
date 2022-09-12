@@ -1,0 +1,10 @@
+caption: Fold All
+created: 20220729215240119
+icon: $:/core/images/fold-all-button
+modified: 20220730005430270
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/fold-all-tiddlers
+tm-message: tm-fold-all-tiddlers
+type: text/vnd.tiddlywiki
+
+show

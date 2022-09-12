@@ -1,0 +1,7 @@
+created: 20220724192929363
+modified: 20220724211425616
+tags: $:/tags/ViewTemplate
+title: $:/plugins/ahanniga/context-menu/view-template
+type: text/vnd.tiddlywiki
+
+<$contextMenu>

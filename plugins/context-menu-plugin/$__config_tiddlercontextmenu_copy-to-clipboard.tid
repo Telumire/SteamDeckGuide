@@ -1,0 +1,10 @@
+caption: Copy to Clipboard
+created: 20220729212624469
+icon: $:/core/images/copy-clipboard
+modified: 20220730005252978
+tags: $:/tags/tiddlercontextmenu
+title: $:/config/tiddlercontextmenu/copy-to-clipboard
+tm-message: tm-copy-to-clipboard
+type: text/vnd.tiddlywiki
+
+show
