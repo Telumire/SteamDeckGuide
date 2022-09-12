@@ -1,0 +1,10 @@
+created: 20220831054039702
+creator: Telumire
+modified: 20220912180917039
+modifier: Telumire
+tags: 
+title: $:/Latest update
+
+<$let currentTiddler={{{ [!is[system]![Welcome]![$:/TOC]![Table of Contents]] :sort:number:reverse[get[modified]] }}}>
+<$link/>, <$text text={{{ [{!!modified}format:relativedate[]] }}} />
+</$let>

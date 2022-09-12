@@ -1,0 +1,20 @@
+advanced-search: yes
+created: 20220810030023008
+creator: Telumire
+modified: 20220912194635321
+modifier: Telumire
+search: 
+tag selection: 
+tags: $:/edit-search-field
+title: $:/edit-search-field
+
+<div class="search-field tc-search">
+<$edit-text field="search" placeholder="search"/>
+<$list filter="[{!!search}minlength[2]]" variable=_>
+<$button set="!!search" setTo="" class="tc-btn-invisible">
+{{$:/core/images/close-button}}
+</$button>
+</$list>
+<$macrocall $name="checkbox" value="yes" field="advanced-search" label="{{$:/core/images/advanced-search-button}}" class="cbx-invisible"/>
+</div>
+<$list filter={{!!advanced-search}} variable=_><p class="tagcloud">{{||$:/TagCloud}}</p></$list>

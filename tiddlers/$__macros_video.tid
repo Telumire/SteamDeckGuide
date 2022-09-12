@@ -1,0 +1,52 @@
+created: 20220123233433847
+modified: 20220511073841019
+tags: $:/tags/Macro ChannelTemplate
+title: $:/macros/video
+video: https://www.youtube.com/watch?v=cvLHjwYJfA4&list=UU6S4giwg_OP2kBXbyjeNjiQ
+
+\define youtube-iframe()
+<iframe 
+style="$(inline-style)$"
+class="video $(class)$"
+src="https://www.youtube-nocookie.com/embed/$(src-id)$$(params)$"
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen
+/>
+\end
+<!-- 
+Doc : https://developers.google.com/youtube/player_parameters
+-->
+\define video(url,inline-style,class,index,start:"0",end,autoplay,cc_lang_pref,cc_lang_pref,cc_load_policy,color,controls,disablekb,fs,hl,iv_load_policy:"3",modestbranding:"1")
+<$list filter="[subfilter<__url__>search[youtube]]" variable=url>
+<$let 
+id-split="="
+query-split="&"
+list-split="list="
+list={{{[<url>split<list-split>nth[2]]}}}
+id={{{[<url>splitregexp<id-split>splitregexp<query-split>nth[2]]}}}
+src-id={{{[<list>!is[blank]addprefix[?listType=playlist&list=]]~[<id>]}}}
+params={{{[<list>is[blank]then[?]else[&]][[index=$index$]][[start=$start$]][[end=$end$]][[autoplay=$autoplay$]][[cc_lang_pref=$cc_lang_pref$]][[cc_load_policy=$cc_load_policy$]][[color=$color$]][[controls=$controls$]][[disablekb=$disablekb$]][[fs=$fs$]][[hl=$hl$]][[iv_load_policy=$iv_load_policy$]][[modestbranding=$modestbranding$]]+[join[&]]}}}
+inline-style=<<__inline-style__>>
+class=<<__class__>>
+>
+<<youtube-iframe>>
+</$let>
+</$list>
+<$list filter="[subfilter<__url__>search[youtu.be]]" variable=url>
+<$let 
+id-split="be/"
+query-split="&"
+list-split="list="
+list={{{[<url>split<list-split>nth[2]]}}}
+id={{{[<url>splitregexp<id-split>splitregexp<query-split>nth[2]]}}}
+src-id={{{ [<list>!is[blank]addprefix[?listType=playlist&list=]]~[<id>]}}}
+params={{{[<list>is[blank]then[?]else[&]][[index=$index$]][[start=$start$]][[end=$end$]][[autoplay=$autoplay$]][[cc_lang_pref=$cc_lang_pref$]][[cc_load_policy=$cc_load_policy$]][[color=$color$]][[controls=$controls$]][[disablekb=$disablekb$]][[fs=$fs$]][[hl=$hl$]][[iv_load_policy=$iv_load_policy$]][[modestbranding=$modestbranding$]]+[join[&]]}}}
+inline-style=<<__inline-style__>>
+class=<<__class__>>
+>
+<<youtube-iframe>>
+</$let>
+</$list>
+\end
+
+<<video url:[{!!video}]>>

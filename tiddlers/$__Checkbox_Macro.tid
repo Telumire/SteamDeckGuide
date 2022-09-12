@@ -1,0 +1,17 @@
+created: 20220810130730922
+creator: Telumire
+modified: 20220830144839893
+modifier: Telumire
+tags: $:/tags/Macro $:/edit-search-field
+title: $:/Checkbox/Macro
+
+\define checkbox_input(state,class) <input type=checkbox $state$ class="$class$"/>
+\define checkbox(value , field:"list" , tiddler , label:" <<__value__>>", class)
+<$tiddler tiddler={{{ $tiddler$ ~[<currentTiddler>] }}}>
+    <$button class="tc-btn-invisible" actions="""
+        <$action-listops  $field="$field$" $subfilter="+[toggle[$value$]]" />
+        """>
+    <$macrocall $name="checkbox_input" class="$class$" state={{{ [<currentTiddler>contains:$field$[$value$]then[checked]else[]] }}}/>$label$
+    </$button>
+</$tiddler>
+\end
