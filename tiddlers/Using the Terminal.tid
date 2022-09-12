@@ -1,0 +1,41 @@
+created: 20220830130400869
+modified: 20220912180917042
+modifier: Telumire
+sources: [[Terminal Arch Linux Getting-Started Guide|https://tutorialforlinux.com/2018/03/20/arch-linux-terminal-tutorial-for-beginners/]]
+tags: $:/TOC archlinux
+title: Using the Terminal
+type: text/vnd.tiddlywiki
+
+>.warning You can nuke your system by randomly copying/pasting command lines without knowing what they do, don’t blindly follow everything, especially if they mention <code>[[rm|Using the Terminal/Deleting]]</code>!
+
+!!!.c Launching the terminal <<# "Using the Terminal/Launching the terminal">>
+
+{{Using the Terminal/Launching the terminal}}
+
+!!!.c Listing <<# "Using the Terminal/Listing">>
+
+{{Using the Terminal/Listing}}
+
+!!!.c Changing Directory <<# "Using the Terminal/Changing Directory">>
+
+{{Using the Terminal/Changing Directory}}
+
+!!!.c Creating Directory <<# "Using the Terminal/Creating Directory">>
+
+{{Using the Terminal/Creating Directory}}
+
+!!!.c Copying <<# "Using the Terminal/Copying">>
+
+{{Using the Terminal/Copying}}
+
+!!!.c Moving <<# "Using the Terminal/Moving">>
+
+{{Using the Terminal/Moving}}
+
+!!!.c Deleting <<# "Using the Terminal/Deleting">>
+
+{{Using the Terminal/Deleting}}
+
+!!!.c Deleting <<# "Using the Terminal/Admin Power">>
+
+{{Using the Terminal/Admin Power}}

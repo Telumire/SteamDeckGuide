@@ -1,0 +1,16 @@
+created: 20220831151241037
+creator: Telumire
+modified: 20220912180917042
+modifier: Telumire
+tags: [[hardware mods]] $:/TOC
+title: Upgrading the SSD
+type: text/vnd.tiddlywiki
+
+[[EASY Steam Deck SSD UPGRADE|https://www.youtube.com/watch?v=LLCxMiWrnU8]]
+
+[[Steam Deck SSD Upgrade Guide by u/CyrexArtwork|https://docs.google.com/document/d/1gHxN0Z8t7yYKhSniNih2Qvi7AY0dAvrGF96DSaRxd2M/edit]]
+
+<<<.warning Be carefull ! Valve is warning users not to install a storage mod, as it could drastically shorten the life of your handheld PC :
+
+"Hi, please don’t do this. The charger IC gets very hot and nearby thermal pads should not be moved. In addition, most 2242 m.2 drives draw more power and get hotter than what Deck is designed for. This mod may appear to work but will significantly shorten the life of your Deck."
+<<<Lawrence Yang (@lawrenceyang) <a href="https://twitter.com/lawrenceyang/status/1540863166438969345?ref_src=twsrc%5Etfw">June 26, 2022</a>

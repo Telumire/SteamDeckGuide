@@ -1,0 +1,24 @@
+advanced-search: 
+created: 20220831193213607
+modified: 20220912180917042
+modifier: Telumire
+search: 
+sources: [[Steam Deck Desktop: FAQ|https://help.steampowered.com/en/faqs/view/671A-4453-E8D2-323C]]
+tags: archlinux $:/TOC
+title: Steam Deck Desktop: FAQ
+type: text/vnd.tiddlywiki
+
+>.warning The following is taken from {{!!sources}}. Check this link to make sure this info is up to date.
+
+{{||$:/edit-search-field}}
+
+<$list filter="
+[!is[current]prefix{!!title}sort[created]]
+:filter[search:*{Steam Deck Desktop: FAQ!!search}]
+" variable="q">
+
+;<$text text={{{ [<q>trim{!!title}trim[/]] }}}/> ?<$macrocall $name="#" tiddler=<<q>>/>
+
+<$transclude tiddler=<<q>>/>
+
+</$list>

@@ -1,0 +1,33 @@
+created: 20220830132951254
+modified: 20220912180917042
+modifier: Telumire
+tags: $:/TOC
+title: Stream games from a PC
+type: text/vnd.tiddlywiki
+
+For Nvidia GPU, you can use Moonlight, which is part of [[Nvidia GeForce Experience|https://www.nvidia.com/fr-be/geforce/geforce-experience/]]. For AMD, see [[Sunshine|https://github.com/loki-47-6F-64/sunshine]].
+
+You can add your desktop as a streamable game :
+
+<<<
+Open GeForce, click the Settings (gear) button, click SHIELD on the sidebar, then click the Add button on the right. Browse to the app or file you want to add and click OK. You can rename the app using the Edit button.
+<<<https://github.com/moonlight-stream/moonlight-docs/wiki/Setup-Guide#using-moonlight-to-stream-your-entire-desktop
+
+To add the desktop to the list, add `C:\windows\system32\mstsc.exe`.
+
+On the Steam Deck :
+
+* Boot into desktop mode : <kbd>Steam</kbd> > Power > `Switch to Desktop`.
+* <kbd>menu</kbd> > `Discover`. Search and install the app `Moonlight` (If the keyboard doesn’t pop up, click <kbd>Steam</kbd> + <kbd>X</kbd>.).
+* Start it, if both your PC and Steam Deck are turned on and on the same network, you should see your host PC in the list. Click it, verify the pairing code.
+* You can add Moonlight to the Steam Library. For this, you need to open up desktop Steam, go to Library, and at the bottom left corner, click on the plus sign, then Add a Non-Steam Game.... Navigate to your installation folder and add Moonlight. You’ll find it under Navigate to `/var/lib/flatpak/exports/bin/`. You need to change `File type` to `All files` and select `com.moonlight stream.Moonlight`.
+* Boot back to the gaming mode and launch Moonlight through your library.
+
+See also this guide on how to set up Moonlight to launch Playnite for easy game management : https://www.reddit.com/r/SteamDeck/comments/vao0yb/moonlightplaynite_with_a_custom_launch_script_is/
+
+
+!!! Wake up your PC using your Steam Deck
+
+Install [[Steam-Deck.Wake-Up-Rig|https://github.com/scawp/Steam-Deck.Wake-Up-Rig]], then follow this guide :
+
+<iframe style="width:100%;max-height:100vh;aspect-ratio:16/9;" src="https://www.youtube.com/embed/oaplq1rXZBc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

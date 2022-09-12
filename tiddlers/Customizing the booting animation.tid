@@ -1,0 +1,52 @@
+created: 20220831133353179
+modified: 20220912180917040
+modifier: Telumire
+sources: 
+tags: customization $:/TOC
+title: Customizing the booting animation
+type: text/vnd.tiddlywiki
+
+Guide to customize the Steam Deck to look like the Switch :
+
+<iframe style="width:100%;aspect-ratio:16/9;" src="https://www.youtube.com/embed/9nq1kz8Yjjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<<details field:"description-video-tutorial" summary:"video description" content:"""
+VIDEO .webm file location: /home/deck/.steam/steam/steamui/movies/
+
+AUDIO .wav file location: /home/deck/.steam/steam/steamui/sounds/
+
+
+Terminal Command: truncate -s (byte size) (file name)
+
+EX: truncate -s 1840847 steam.webm
+(Case sensitive)
+
+
+SwitchPro Boot Video files: https://www.dropbox.com/sh/s3s6tsgsdqwtbiz/AABYS9p6j8d5crrYp0LNsCGra?dl=0
+
+SwitchPro Audio files: https://www.dropbox.com/sh/7i8syliw8ly2dy2/AAD6hqE7UW7twyr5cGk7UrA3a?dl=0
+
+TIMESTAMPS:
+
+
+```
+0:06 Intro
+0:46 KdenLive tutorial 
+1:53 Boot up file replacement 
+3:36 Custom Ui sounds
+3:58 Switch Pro showcase
+```
+
+
+Credit: 
+u/Crazy89_ for discovering how to manipulate the steam files: https://www.reddit.com/r/SteamDeck/comments/warm4b/i_dont_think_i_got_the_right_console/
+
+u/Loganbogan9 for commenting how to pad out the file size with the truncate command on this thread: https://www.reddit.com/r/SteamDeck/comments/wcaqad/so_it_turns_out_you_can_modify_the_boot_video/
+""">>
+
+
+;See also
+
+* [[Script to randomize your startup on each boot + collection of consoles startup animations|https://github.com/kageurufu/steamdeck_startup_animations]]
+* [[r/SteamDeckBootVids|https://www.reddit.com/r/SteamDeckBootVids/top]]
+* [[Curated list of custom video intro curated by u/deadcowards|Curated list of custom Steam Deck Boot curated by u/deadcowards]]

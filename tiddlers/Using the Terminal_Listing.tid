@@ -1,0 +1,39 @@
+created: 20220830164724137
+modified: 20220830164724137
+tags: [[Using the Terminal]]
+title: Using the Terminal/Listing
+type: text/vnd.tiddlywiki
+
+To List (ls) the Directory you are in:
+
+<<copy-code code:"""ls .""">>
+
+`.` is optional and means the current Location.
+
+The default location is the `Home` Folder. You should get a similar output :
+
+```cmd
+Applications  Documents  Pictures  Templates
+Desktop       Downloads  Music      Public    Videos
+```
+
+You can also press <kbd>tab</kbd> instead of <kbd>enter</kbd> to get the full list, including the hidden folders.
+
+These Entities are Directories. To List the `Downloads Folder` from `Home`, run:
+
+<<copy-code code:"""ls ~/Downloads""">> or also <<copy-code code:"""ls $HOME/Downloads""">>
+
+`$HOME` is an Environment Variable always containing your User’s Home Path.
+
+
+To list the Main System’s `Root` Directory:
+
+<<copy-code code:"""ls /""">>
+
+To List the `usr` (User System Resources) Directory:
+
+<<copy-code code:"""ls /usr""">>
+
+Finally, to List the `bin` Branch:
+
+<<copy-code code:"""ls /usr/bin""">>

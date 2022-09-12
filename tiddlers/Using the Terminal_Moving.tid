@@ -1,0 +1,17 @@
+created: 20220830233756092
+modified: 20220830234129101
+tags: [[Using the Terminal]]
+title: Using the Terminal/Moving
+type: text/vnd.tiddlywiki
+
+''Move'' a directory:
+
+<<copy-code code:"""mv ~/livingroom/bottle ~/bedroom/""">>
+
+The directory `bottle` is moved to the directory `bedroom`.
+
+''Move and Rename'' a directory:
+
+<<copy-code code:"""mv ~/bedroom/bottle ~/bathroom/can""">>
+
+The directory `bottle` is moved to the directory `bathroom` and renamed `can`.

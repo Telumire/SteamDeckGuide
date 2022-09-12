@@ -1,0 +1,7 @@
+created: 20220831194039137
+modified: 20220831194039137
+tags: [[Steam Deck Desktop: FAQ]]
+title: Steam Deck Desktop: FAQ/How do I install apps
+type: text/vnd.tiddlywiki
+
+Currently, this is a stock KDE Plasma experience in terms of installing software. You can use the Discover Software Center (on the taskbar) to install apps. The Discover Software Center installs applications using flatpak technology (more on this below) onto the writeable portion of your drive. If you know your way around a Linux command line you can directly use flatpak commands to install applications. Common browsers, music players, and other kinds of applications are already available via these methods, and we expect that many more will be updated, fixed, and available after launch.

@@ -1,0 +1,32 @@
+created: 20220830101143949
+modified: 20220912180917040
+modifier: Telumire
+sources: [[Kevin Wammer - Steam Deck Starter Guide: Here’s what to do first|https://overkill.wtf/steam-deck-starter-guide-start-here]]
+tags: $:/TOC
+title: Check for issues
+type: text/vnd.tiddlywiki
+
+!!! Most frequent Steam Deck issues mentioned by the community
+
+* Dead shoulder buttons
+* Dead pixels
+* [[Bubbles under the screen]]
+* Noticeable screen bleed
+* Sticky ABXY buttons — the B button seems especially prone to this
+* [[Replacing the fan]]
+
+If you are sure it's not a software issue, [[contact support|https://help.steampowered.com/en/]] and start an [[RMA|https://en.wikipedia.org/wiki/Return_merchandise_authorization]] process.
+
+!!! Test your inputs
+
+<kbd>Steam</kbd> > `Settings` > `Controller` > `Test Device Inputs`
+
+Alternatively, download the game Aperture Desk Job.
+
+!!! Force a restart
+
+If your Steam Deck becomes unresponsive, you can force a restart by holding <kbd>power</kbd> down for three seconds. If the Steam Deck is still unresponsive, it might be an issue on the OS level — then try holding <kbd>power</kbd> down for ten seconds.
+
+!!! Official Steam Deck troubleshooting guide
+
+https://help.steampowered.com/en/faqs/view/69E3-14AF-9764-4C28

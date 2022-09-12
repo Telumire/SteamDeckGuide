@@ -1,0 +1,12 @@
+created: 20220831220706017
+modified: 20220912180917040
+modifier: Telumire
+tags: productivity $:/TOC
+title: Develop Angular/Ionic project on Steam Deck
+type: text/vnd.tiddlywiki
+
+The easiest way is to use [[stackblitz|https://stackblitz.com/]]'s PWA through chrome or chromium, that way you can use the stackblitz IDE while offline.
+
+Create a node.js project, then install the Ionic CLI as usual.
+
+If ng serve fail, see https://stackoverflow.com/questions/56623458/could-not-find-the-implementation-for-builder-angular-devkit-build-angulardev

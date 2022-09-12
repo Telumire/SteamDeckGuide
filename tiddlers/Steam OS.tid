@@ -1,0 +1,10 @@
+created: 20220830082753090
+modified: 20220830124604596
+title: Steam OS
+type: text/vnd.tiddlywiki
+
+Version at the time of writing : {{$:/SteamOS/Version}}
+
+Based on KDE Plasma v5.23.5
+
+See "About this System" : <kbd>alt</kbd>+<kbd>space</kbd>, about

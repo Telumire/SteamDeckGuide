@@ -1,0 +1,19 @@
+created: 20220830100041140
+modified: 20220912180917042
+modifier: Telumire
+tags: $:/TOC
+title: Update your steam deck
+type: text/vnd.tiddlywiki
+
+Power up, press the <kbd>Steam button</kbd>, and scroll down to `Settings`. Under `System`, choose between three update types:
+
+
+<<<
+''Stable'': Recommended experience for most users. This option will install the latest stable Steam Client and SteamOS.
+
+''Beta'': Testing for new Steam features. Updates frequently. This option will install Steam Client Beta and the latest stable SteamOS.
+
+''Preview'': Testing for new Steam and system-level features. Updates frequently. You may encounter issues. This option will install Steam Client Beta and the SteamOS Beta.
+<<<[[From Valve|https://store.steampowered.com/news/app/1675200/view/3323108691081569180]]
+
+Tap on <kbd>Check for updates</kbd>, and let everything install.

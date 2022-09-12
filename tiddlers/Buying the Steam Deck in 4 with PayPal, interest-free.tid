@@ -1,0 +1,28 @@
+created: 20220831043218528
+creator: Telumire
+modified: 20220912201224215
+modifier: Telumire
+sources: [[Paypal "Pay in 4" Does Work|https://www.reddit.com/r/SteamDeck/comments/uo6d3d/paypal_pay_in_4_does_work/]]
+tags: [[buying guide]] $:/TOC
+title: Buying the Steam Deck in 4 with PayPal, interest-free
+type: text/vnd.tiddlywiki
+
+Paypal provide a "Pay in 4" short-term credit-free loan option for buying the Steam Deck. This allows Paypal to pay Steam for your SD, and then you pay Paypal 4 times, once every two weeks, no interest.
+
+If you want to do this , go through Steam Checkout on your Desktop PC - Paypal sometimes won't show the "Pay in 4" option on mobile phones.
+
+Through your Desktop Browser, or through Steam Desktop client, go through the checkout and choose the "Paypal" payment potion(not the My Paypal saved option if you've used Paypal before). ''Make sure you uncheck the box "Save this payment method"''. 
+
+When you continue, click the Paypal button and then your browser will redirect you or open a pop-up where you can login to Paypal. 
+
+Once Paypal asks you to pick a payment option, scroll down to the Pay later options and choose "Pay in 4". Continue and Paypal will ask to confirm a few things as well as what payment method to setup automatic payments with, and then Paypal will send you back to Steam so you can finish the checkout there.
+
+
+;Confirmed to work
+
+US, UK
+
+;See
+
+* https://www.paypal.com/us/digital-wallet/ways-to-pay/buy-now-pay-later
+* https://www.paypal.com/us/smarthelp/article/what-is-pay-in-4-faq4333

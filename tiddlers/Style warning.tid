@@ -1,0 +1,10 @@
+created: 20220830130606806
+modified: 20220830132338877
+tags: $:/tags/Stylesheet
+title: Style warning
+type: text/vnd.tiddlywiki
+
+.warning:before{
+	content:"⚠️ ";
+	font-size:1em;
+}

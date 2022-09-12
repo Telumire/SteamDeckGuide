@@ -1,0 +1,31 @@
+created: 20220830235247604
+modified: 20220831003942105
+tags: [[Using the Terminal]]
+title: Using the Terminal/Admin Power
+type: text/vnd.tiddlywiki
+
+>.warning With the Admin Login you can delete anything, be very careful !
+
+Check What User you are on:
+
+<<copy-code code:"""whoami""">>
+
+Login as SuperUser:
+
+<<copy-code code:"""su -""">>
+
+Logout:
+
+<<copy-code code:"""exit""">>
+
+Execute a Single Command as SuperUser:
+
+<<copy-code code:"""su -c 'myCommand'""">>
+
+Or:
+
+<<copy-code code:"""sudo myCommand""">>
+
+For instance, to List the protected root directory:
+
+<<copy-code code:"""sudo ls /root""">>

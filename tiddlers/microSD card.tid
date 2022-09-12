@@ -1,0 +1,50 @@
+created: 20220830102942323
+creator: Telumire
+modified: 20220912201044913
+modifier: Telumire
+sources: [[pcgamesn - Best Steam Deck SD card in 2022|https://www.pcgamesn.com/steam-deck/best-sd-card]]   [[Best Micro SD Card for Steam Deck (Top 5 Tested & Compared)|https://youtu.be/eNX4SFMftEY]]  [[PSA: A MicroSD card guide that seems to be sorely needed|https://www.reddit.com/r/SteamDeck/comments/x1wasq]]
+tags: $:/TOC [[buying guide]] [[Increasing the memory]] accessories
+title: microSD card
+type: text/vnd.tiddlywiki
+
+Use a microSD card mentioning the following keywords: UHS-I, [[SDXC|https://www.sdcard.org/consumers/about-sd-memory-card-choices/sd-sdhc-sdxc-and-sduc-card-capacity-choices/]], [[U3|https://www.sdcard.org/developers/sd-standard-overview/speed-class/]], [[A2|https://www.mymemory.co.uk/blog/a1-vs-a2-sandisk-microsd-card-whats-the-difference/#a1-vs-a2]] and [[V30|https://www.sdcard.org/press/thoughtleadership/the-more-you-know-the-evolution-of-sd-ratings-for-new-applications/]] (or higher) - the more storage, the better.
+
+''UHS Bus Speed'': maximum possible read and write speed. UHS-I has a maximum bus speed of 104mb/s, UHS-II is 312mb/s. The Steam Deck adopts UHS-I, which tops out at around 100MB/s read speeds and 90MB/s write speeds. UHS-II can be used because it’s backwards compatible, but you won’t get the higher rated read and write speeds.
+
+''UHS Speed Class'': minimum read and write speed the card will retain during sequential read/write operations, 1 for 10mb/s and 3 for 30mb/s. This means that when downloading new games to a U3 card it will ALWAYS be above 30mb/s, allowing writing headroom for both a fast internet connection, and the unpacking and decompressing steam does simultaneously.
+
+''Video Speed Class'': The V-rating is the minimum sustained write speed (in MB/s), which is relevant for video recording and can be ignored for our use.
+
+''Application performance class'': Random read and write performance, meaning the speed that the card can read and write smaller files one after the other. A2 is recommended as this will result in less stutters and hitches associated with texture and object streaming.
+
+{{SD Card.svg}}
+
+Recommended :
+
+* Samsung EVO Plus or EVO Select (R:100MB/s,W:90MB/s)
+* SanDisk Extreme microSDXC (R:160MB/s,W:90MB/s)
+
+Find better deals on amazon:
+
+* https://www.hagglezon.com - search accross EU stores
+* https://camelcamelcamel.com - track prices
+
+!!! Speed test with Kdiskmark
+
+https://github.com/JonMagon/KDiskMark/releases
+
+Download the file ending in 'appimage', then double click to run.
+
+!!! Check your microSD true capacity
+
+https://github.com/AltraMayor/f3
+
+!!! Formatting the microSD card with Steam
+
+>.warning Formatting will erase all data present on the card !
+
+<kbd>Steam</kbd> > `Settings` > `System` > `Format SD card`
+
+!!! If the process fails
+
+Format the microSD card on your Windows PC to NTFS, restart the Steam Deck and then put the MicroSD card back in. It should now format.

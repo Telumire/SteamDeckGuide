@@ -1,0 +1,15 @@
+created: 20220901211523439
+modified: 20220901212146810
+tags: Emulation
+title: How to uninstall EmuDeck
+type: text/vnd.tiddlywiki
+
+Launch the uninstall script, then check if there isnt any leftover.
+Make sure to Show Hidden Files to see the folders.
+
+* open Discover and uninstall all the emulators.
+* delete all the folders for the emulators in ~/.var/app
+* delete ~/.emulationstation
+* delete the Emulation folder
+* delete the cemu, citra, and pcsx2 configs from ~/.steam/steam/controller_base/templates
+* delete the templates in ~/.steam/steam/controller_base/templates 

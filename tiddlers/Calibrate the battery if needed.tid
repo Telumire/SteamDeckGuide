@@ -1,0 +1,20 @@
+created: 20220830101912813
+modified: 20220912180917040
+modifier: Telumire
+sources: [[Kevin Wammer - Steam Deck Starter Guide: Here’s what to do first|https://overkill.wtf/steam-deck-starter-guide-start-here]]
+tags: $:/TOC
+title: Calibrate the battery if needed
+type: text/vnd.tiddlywiki
+
+If the battery health is under 90% even tought your Steam Deck is new, it may be a calibration issue. 
+
+>.warning Letting the battery completely drain may damage it, only do this as a last ressort ! Some users reported that the battery calibrated itself after several charge cycle, wait for a bit before trying what follows.
+
+Here’s what you need to do:
+
+# Let the Steam Deck drain the battery until it turns off. If the power LED blinks three times, you need to plug the charger in for the next step.
+# Hold <kbd>volume up</kbd> and <kbd>power</kbd>. This will boot into the BIOS menu. Stay on this menu until the Steam Deck turns off. Then, repeat it once or twice until the Deck turns off before you're able to reach the BIOS menu. You might briefly plug the charger in to make it this far. (Briefly, you don’t want to charge the Steam Deck. Only enough for the Deck to turn on, then unplug immediately.)
+# Next, we want to charge the Steam Deck overnight while being turned off. If the Steam Deck automatically turns on, immediately unplug the charger and plug it back when the Steam Deck turns off again.
+# After around 8 hours on the charger, it should be fully charged. Turn it on and check your battery health in the taskbar. For this, you either need to switch to `Desktop mode`, or install the battery health plugin for [[Decky|https://overkill.wtf/powertools-decky-quicklaunch/]] following this guide.
+# To boot into `Desktop mode`, click <kbd>Steam</kbd>, go down to `Power`, and then `Switch to Desktop`. Wait for the Deck to reboot.
+# Back in `Desktop mode`, you’ll find the battery health in the taskbar. It should be above 90%, but not necessarily at 100% (though it can be at 100%). There’s always a little margin of error.

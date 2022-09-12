@@ -1,0 +1,39 @@
+created: 20220830170028575
+modified: 20220830225215427
+tags: [[Using the Terminal]]
+title: Using the Terminal/Changing Directory
+type: text/vnd.tiddlywiki
+
+''Change the Directory'' (cd) to the ''Root'' Directory:
+
+<<copy-code code:"""cd /""">>
+
+''Go to /usr/bin'':
+
+<<copy-code code:"""cd /usr/bin""">>
+
+To ''Navigate Back'' to the Parent,  use the `..` option. 
+So now, to Return to the Root of the Directory Tree :
+
+<<copy-code code:"""cd ../..""">>
+
+This is like saying "`One Step Back` then `One Step Back` again".
+
+''Return Home'' :
+
+<<copy-code code:"""cd""">>
+
+To ''Print the Working Directory'' :
+
+<<copy-code code:"""pwd""">>
+
+Which conclude our first Step-By-Step Walk into the Linux Directory Tree.
+
+
+<<<
+Note : There are 3 different Entities named as “Root”:
+
+* The ''System’s Directory Tree Root'': `/`
+* The ''root User’s Directory'': `/root`
+* The ''root User'': the ''SuperAdmin'' that can Execute Any Command
+<<<

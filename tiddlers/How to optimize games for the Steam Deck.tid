@@ -1,0 +1,40 @@
+created: 20220830123859304
+creator: Telumire
+modified: 20220912195905253
+modifier: Telumire
+sources: https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io52j0n/
+tags: $:/TOC
+title: How to optimize games for the Steam Deck
+type: text/vnd.tiddlywiki
+
+!!! Using performance overlay
+<kbd>•••</kbd> > `battery icon` > `Performance Overlay Level`
+
+!!! FPS Limiter
+In `Advanced View`, set the `Framerate Limit`. Switching the refresh rate to 40 FPS unlock the 40FPS option, which is generally the best compromise for a smooth gaming experience. 
+
+To save settings per game, click on `Use per-game profile`.
+
+!!! Thermal Design Power (TDP)
+Maximum heat the processor and graphics cards of the Steam Deck can use in watts. More watts = better peformances but worse power consumption.
+
+If the GPU is at a low %, you can decrease the GPU CLock Frequency to improve battery life. 
+
+!!! FSR (Fidelity FX Super Resolution)
+Rendering technique that runs games at a lower resolution (less than 720p for the Steam Deck) and then uses AI algorithms to upscale games back to a higher resolution. [[I.E.|https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io52j0n/]] when using a 1080p display, FSR will upscale an 800p image to 1080p without forcing aspect ratio.
+
+Set a lower resolution, then set `Scaling Filter` to `FSR`.
+
+!!! Half Rate Shading
+This option toggle `Variable Rate Shading` (VRS). This allow to simplify the rendering where possible to improve performances. Valve's implementation is not content aware and is applied to two pixels at a time (hence 'Half'), so results may be poor, but it does improve battery life.
+
+!!! Community-tested graphic settings
+In general, the few values you want to downgrade first are Shadow quality, Reflection quality, Antialiasing, and Distance rendering.
+
+* https://sharedeck.games/
+* https://protondb.com/
+* https://steamdeckhq.com/game-reviews
+
+!!! Streaming from a PC
+
+[[Stream games from a PC]]

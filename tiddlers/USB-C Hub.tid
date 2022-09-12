@@ -1,0 +1,23 @@
+created: 20220830124049538
+creator: Telumire
+modified: 20220912201054632
+modifier: Telumire
+sources: [[Steam Deck Guide: Get A USB-C Hub And Start Using Desktop Mode|https://www.forbes.com/sites/jasonevangelho/2022/03/04/steam-deck-desktop-mode-challenge-day-1-get-a-hub-and-get-docked/]]
+tags: $:/TOC [[buying guide]] accessories
+title: USB-C Hub
+type: text/vnd.tiddlywiki
+
+The official Steam Deck dock is [[yet to be released|https://store.steampowered.com/news/app/1675200/view/3328736287857025157]]. In the meantime, we can search for alternatives.
+
+;Requirements
+
+* USB-C connection.
+* self-powered hub, or support USB-C “Power Delivery” of at least 45W - else the Steam Deck will lose charge.
+* at least one USB 3.0 port.
+* HDMI port to connect to an external monitor
+* Ethernet connection, especially if you want to do Steam Remote gaming.
+
+;Hub valided by users
+
+| Brand | Price | Store | Comment | Tested by |h
+|Targus USB-C Alt. Mode Dual HDMI 4K Docking Station with 100W PD Pass-Thru|77$|amazon.de|Works well, heats up a bit during use. The placement of the ports is awkward, it would be better if they were all aligned on one side.|u/telumire|

@@ -1,0 +1,13 @@
+created: 20220831194204299
+modified: 20220831194204299
+tags: [[Steam Deck Desktop: FAQ]]
+title: Steam Deck Desktop: FAQ/How do I run sudo commands
+type: text/vnd.tiddlywiki
+
+The default deck user is shipped with no password. This is a secure setting that prevents access via ssh, and can't be used to run commands via `sudo`.
+
+If you’d like to set a password in order to run sudo commands, open a terminal window and set a secure password using the `passwd` command. At that point you will be able to use `sudo` anywhere elevation is required.
+
+I messed up my Steam Deck and it’s acting weird now. How to I get back to a good state?
+
+You can find recovery instructions for Steam Deck [[here|Steam Deck Recovery Instructions]].

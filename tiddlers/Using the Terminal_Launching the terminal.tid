@@ -1,0 +1,16 @@
+created: 20220830164606715
+modified: 20220830164606715
+tags: [[Using the Terminal]]
+title: Using the Terminal/Launching the terminal
+type: text/vnd.tiddlywiki
+
+''Using KRunner''
+
+<kbd>alt</kbd>+<kbd>enter</kbd>, "konsole", <kbd>enter</kbd>.
+
+''Using Dolphin (file explorer)''
+
+Right click inside a folder and click on <kbd>open terminal</kbd>, or press <kbd>shift</kbd>+<kbd>f4</kbd>.
+
+
+>Note: the Main Linux Shell Commands are Abbreviations of the Corresponding Word.

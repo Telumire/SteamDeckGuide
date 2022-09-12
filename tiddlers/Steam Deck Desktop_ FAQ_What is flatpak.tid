@@ -1,0 +1,7 @@
+created: 20220831194058239
+modified: 20220831194058239
+tags: [[Steam Deck Desktop: FAQ]]
+title: Steam Deck Desktop: FAQ/What is flatpak
+type: text/vnd.tiddlywiki
+
+Flatpak is a software deployment and package management utility for Linux. We like it because it offers a way to install and run applications on Steam Deck on the writable part of the disk, with all the rest of your games and content – ensuring it won’t be broken by future Steam Deck system updates.

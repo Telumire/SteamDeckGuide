@@ -1,0 +1,17 @@
+created: 20220830232725508
+modified: 20220830233033501
+tags: [[Using the Terminal]]
+title: Using the Terminal/Creating Directory
+type: text/vnd.tiddlywiki
+
+Making a Directory :
+
+<<copy-code code:"""mkdir $HOME/livingroom""">>
+
+.. or several at once :
+
+<<copy-code code:"""mkdir $HOME/bedroom $HOME/bathroom $HOME/garden""">>
+
+Make a New Empty File:
+
+<<copy-code code:"""touch $HOME/livingroom/box""">>

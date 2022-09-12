@@ -1,0 +1,19 @@
+created: 20220830233122963
+modified: 20220830233731314
+tags: [[Using the Terminal]]
+title: Using the Terminal/Copying
+type: text/vnd.tiddlywiki
+
+''Copy a Single File'':
+
+<<copy-code code:"""cp $HOME/livingroom/box $HOME/bedroom/""">>
+
+''Copy a Single Directory'' inside to another:
+
+<<copy-code code:"""cp -r $HOME/livingroom $HOME/garden""">>
+
+''Copy-Displace-Rename''
+
+<<copy-code code:"""cp -r $HOME/livingroom $HOME/bedroom/wardrobe""">>
+
+Here, the directory `livingroom` is copied into the directory `bedroom` and renamed `wardrobe`.

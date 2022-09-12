@@ -1,0 +1,17 @@
+created: 20220831221919862
+modified: 20220912180917040
+modifier: Telumire
+sources: https://www.reddit.com/r/SteamDeck/comments/tb7h13/kde_connect_is_available_on_the_steam_deck/
+tags: $:/TOC
+title: How to install KDE Connect
+type: text/vnd.tiddlywiki
+
+KDE Connect can be installed as a flatpak via a different repo: https://distribute.kde.org/kdeapps.flatpakrepo.
+Here are the guidelines on community.kde.org.
+
+KDE Connect is an app that helps you transfer files between devices (eg Steam Deck, smartphone, whatever other computer you have, etc), as well as get phone notifications on your desktop, among other things.
+
+You can either:
+* Enable that repo by running flatpak remote-add --if-not-exists kdeapps --from https://distribute.kde.org/kdeapps.flatpakrepo in the terminal, OR * Enable it in the Discover app, via Settings > Add Source... > https://distribute.kde.org/kdeapps.flatpakrepo
+
+KDE Connect will then show up in the Discover app / you'll be able to install it with flatpak install org.kde.kdeconnect.

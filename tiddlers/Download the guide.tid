@@ -1,0 +1,32 @@
+created: 20220830171706810
+modified: 20220830173844093
+tags: 
+title: Download the guide
+type: text/vnd.tiddlywiki
+
+<$button class="tc-btn-download">
+<$action-sendmessage $message="tm-download-file" filename="SteamDeckGuide.html"/>
+Download<!-- {{$:/core/images/save-button}}-->
+</$button>
+<style>
+.tc-btn-download:active,.tc-btn-download:focus{
+	outline:none;
+}
+.tc-btn-download {
+	padding: 10px 30px;
+	border-radius: 5px;
+	background: #1462ff;
+	border: none;
+	box-shadow: 0 2px 2px 0 #4a74c9;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #fff;
+	fill: #fff;
+}
+
+.tc-btn-download:active {
+	background: #1475ff;
+}
+</style>

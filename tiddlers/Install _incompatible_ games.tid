@@ -1,0 +1,34 @@
+created: 20220830124115658
+modified: 20220912180917040
+modifier: Telumire
+tags: $:/TOC
+title: Install "incompatible" games
+type: text/vnd.tiddlywiki
+
+Proton is a compatibility layer developed by Valve and based on Wine allowing Windows software to run on Linux.
+
+See what games in your library work on Steam Deck : https://checkmydeck.ofdgn.com
+
+Some games can be tweaked to run better, see https://www.protondb.com.
+
+Due to licensing agreements, proton may not be able to run some games properly, to fix this issue you can use a community build called GE-Proton (previously Proton-GE).
+
+Official installation guide : https://github.com/AUNaseef/protonup
+
+!!! How to install GE-Proton
+
+# Go to desktop mode : <kbd>Steam</kbd> > Power >  `Switch to Desktop`.
+# Open `Discover` and search for `ProtonUp Qt`. If the keyboard doesn’t pop up, <kbd>Steam</kbd> + <kbd>X</kbd>. Install the app.
+# Open `ProtonUp Qt`, click `Add version` and install the latest version.
+# Go back to `gaming mode`.
+# For the game with issues, click on the `cog-icon` > `Properties...` > `Compatibility`.
+# Check `Force the use of a specific Steam Play compatibility tool`, choose `GE-Proton`.
+
+!!! Update GE-Proton
+
+To update, you need to manually install newer versions through `ProtonUp QT`.
+
+!!! Browser extensions to display compatibility rating
+
+* [[ProtonDB for Steam – Firefox|https://addons.mozilla.org/en-US/firefox/addon/protondb-for-steam]]
+* [[ProtonDB for Steam – Chrome|https://chrome.google.com/webstore/detail/protondb-for-steam/ngonfifpkpeefnhelnfdkficaiihklid]]

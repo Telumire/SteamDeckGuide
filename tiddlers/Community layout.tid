@@ -1,0 +1,27 @@
+created: 20220830124348689
+creator: Telumire
+modified: 20220912202837696
+modifier: Telumire
+sources: https://www.reddit.com/r/SteamDeck/comments/u9x8kt/how_to_delete_custom_steam_input_layouts/i61whb8/  https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io49cv2/
+tags: $:/TOC
+title: Community layout
+type: text/vnd.tiddlywiki
+
+;Downloading a community layout
+
+Go to a game's page, click the `controller icon`, click on the currently active layout and then navigate over to the right to `community layouts`.
+
+;Deleting a layout
+
+[[In some cases|https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io49cv2/]], the community layout can give pc controls and changing the layout can fail to restore the default controls. To fix this issue, you can delete the layout. 
+
+* Switch to Desktop Mode.
+* Open your Steam Library. (Regular mode using Right TrackPad)
+* On the left hand list of games, right click the chosen game. (Tap Left TrackPad)
+* Choose Manage, Controller layout. (Right Trackpad)
+* At this point mouse navigation becomes unreliable so use dpad and button navigation.
+* Use 'X' to Browse Configs, highlight your Personal or Community layout using the dpad and then press the 'Top Left Menu' button to delete the layout.
+
+Alternatively, you can delete the layout manually. In dolphin explorer, go to <<copy-code code:"""~/.local/share/Steam/steamapps/common/Steam ControllerConfigs/[accountId]/config/[gameId]""">>
+
+Then delete the `.vd` files inside that directory.

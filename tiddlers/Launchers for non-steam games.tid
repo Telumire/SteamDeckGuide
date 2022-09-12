@@ -1,0 +1,11 @@
+created: 20220830132433700
+creator: Telumire
+modified: 20220912180917040
+modifier: Telumire
+tags: $:/TOC
+title: Launchers for non-steam games
+type: text/vnd.tiddlywiki
+
+* https://heroicgameslauncher.com, [[HeroicBashLauncher|https://github.com/redromnon/HeroicBashLauncher]]: Epic Store and the GOG store
+* https://lutris.net
+* https://usebottles.com : EA Play, Ubisoft’s Connect, Blizzard’s Battle.net. [[More info here|Install non-steam game via bottles and add custom art using boilr]].

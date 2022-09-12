@@ -1,0 +1,21 @@
+created: 20220830234229833
+modified: 20220830235204664
+tags: [[Using the Terminal]]
+title: Using the Terminal/Deleting
+type: text/vnd.tiddlywiki
+
+>.warning In the shell environment, there’s no trashbin, make sure to triple check your commands before execution !
+
+''Removing one entity''
+
+<<copy-code code:"""rm $HOME/livingroom/box""">>
+
+''Removing multiple entity''
+
+<<copy-code code:"""rm $HOME/bathroom/can $HOME/bedroom/jar""">>
+
+''Removing Directories Recursively''
+
+<<copy-code code:"""rm -rf $HOME/livingroom""">>
+
+rf stand for Recursively Forced.

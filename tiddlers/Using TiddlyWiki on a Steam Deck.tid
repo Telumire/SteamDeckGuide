@@ -1,0 +1,38 @@
+created: 20220831214825974
+creator: Telumire
+modified: 20220912180917042
+modifier: Telumire
+tags: TiddlyWiki $:/TOC
+title: Using TiddlyWiki on a Steam Deck
+type: text/vnd.tiddlywiki
+
+!!! TiddlyDesktop
+
+Download the [[latest linux64 release|https://github.com/TiddlyWiki/TiddlyDesktop/releases]]. Then, extract the archive to a folder. You can create a link on the desktop by drag & drop the nw executable while holding <kbd>ctrl</kbd>+<kbd>shift</kbd>.
+
+!!! Timimi
+
+Install timimi Linux [[as usual|https://ibnishak.github.io/Timimi/#Installing%20Timimi]], it will install timimi in the following directories :
+
+* manifest : `/home/deck/.mozilla/native-messaging-hosts/timimi.json`
+* executable : `/home/deck/.local/share/timimi/timimi`
+
+However, firefox flatpak is sandboxed and can't access these directories.
+
+To fix that we need to change the directories to :
+
+* manifest : `/home/deck/.var/app/org.mozilla.firefox/.mozilla/native-messaging-hosts/timimi.json`
+* executable : `/home/deck/.var/app/org.mozilla.firefox/.mozilla/native-messaging-hosts/timimi`.  Note: Remember to make it executable (chmod +x) if it is not, already.
+
+Copy the content of each directory to their new location.
+
+;Alternative using flatseal
+
+You can also manage firefox's permissions with Flatseal, and add the location of timimi directories to the Filesystem access.
+
+> Warning : Using flatseal will reset your firefox, make a backup of your bookmarks/settings before use !
+
+!!! See also
+
+* https://discourse.flathub.org/t/how-to-run-firefox-and-keepassxc-in-a-flatpak-and-get-the-keepassxc-browser-add-on-to-work/437?u=rugk#allowing-firefox-to-access-the-socket-5
+* https://bugzilla.mozilla.org/show_bug.cgi?id=1621763

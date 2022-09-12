@@ -1,0 +1,13 @@
+created: 20220831194129506
+modified: 20220831194129506
+tags: [[Steam Deck Desktop: FAQ]]
+title: Steam Deck Desktop: FAQ/What if I want to do more than what’s available by flatpak
+type: text/vnd.tiddlywiki
+
+Totally fine, though it comes with several caveats. Make sure you know what you’re doing and be careful about running random commands / scripts you find on the internet - you may get your Steam Deck into a bad state or compromise your data. In addition, anything you install outside of flatpak (via pacman for instance) may be wiped with the next SteamOS update.
+
+With that out of the way, if you are going outside flatpak and need to edit the read-only image, you can enable that with the following command:
+
+<<copy-code code:"""sudo steamos-readonly disable""">>
+
+See below for instructions on using sudo with Steam Deck. One more warning to complete the warning sandwich – don’t do the above unless you know what you’re doing.

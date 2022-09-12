@@ -1,0 +1,47 @@
+created: 20220830133019910
+modified: 20220912180917040
+modifier: Telumire
+sources: [[How to install PowerTools and other plugins on your Steam Deck|https://overkill.wtf/powertools-decky-quicklaunch]]  [[An introduction (and how-to) to Plugin Loader for the Steam Deck.|https://www.youtube.com/watch?v=S8wgTGDWxgM]]
+tags: $:/TOC
+title: Install plugins
+type: text/vnd.tiddlywiki
+
+With [[Decky loader|https://deckbrew.xyz]] ([[github|https://github.com/SteamDeckHomebrew/decky-loader]]), you can install  plugins into the gaming mode to enable features.
+
+;How to install Decky loader
+
+# <kbd>Steam</kbd> > `Settings`.
+# `System` >  `System Settings`, activate `Enable Developer Mode`.
+# Scroll down to `Developer`.
+# Under `Miscellaneous` enable `CEF Remote Debugging`.
+# Boot into desktop mode: <kbd>Steam</kbd> > Power > Switch to Desktop.
+# In desktop mode, click on the menu button, and open up Konsole.
+# If you haven't set a password for the terminal yet, type in <<copy-code code:"""passwd""">>, hit <kbd>enter</kbd>, and type in your new password twice. Don't forget it!
+# When you've set your terminal password, paste the following code and hit enter: <<copy-code code:"""curl -L https://github.com/SteamDeckHomebrew/decky-loader/raw/main/dist/install_prerelease.sh | sh""">>
+# Reboot back into gaming mode.
+# <kbd>•••</kbd> > shopping bag icon (at the bottom).
+
+
+List of available plugins : https://plugins.deckbrew.xyz/
+
+Examples :
+
+
+;QuickLaunch
+
+Quickly Launch [[Flatpak app|https://www.flatpak.org/]] from the Steam Deck Quick Access Menu without needing to boot into desktop mode.
+
+;PowerTools
+
+"""
+Enable & disable CPU threads & SMT
+Set CPU max frequency and toggle boost
+Set some GPU power parameters (fastPPT & slowPPT)
+Display supplementary battery info
+Keep settings between restarts
+"""
+
+>.warning Some community members seem to run into an issue where opening up the PowerTools freezes the whole Steam Deck. Sometimes tapping on the screen outside of the PowerTools-sidebar fixes it, but often you have to hard reboot the Deck.
+
+https://www.youtube.com/watch?v=S8wgTGDWxgM
+

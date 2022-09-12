@@ -1,0 +1,7 @@
+created: 20220831194226206
+modified: 20220831194226206
+tags: [[Steam Deck Desktop: FAQ]]
+title: Steam Deck Desktop: FAQ/Can I run apps I install on the desktop in Deck mode
+type: text/vnd.tiddlywiki
+
+Yes you can. On the desktop, go to the Steam client, and click the “add a game” button in the lower left corner, click ‘add a Non-Steam game’, then find the application you installed in the list. This app will now show up in the Deck UI library under the ‘non-steam’ tab.

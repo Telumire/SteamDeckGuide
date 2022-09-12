@@ -1,0 +1,10 @@
+created: 20220830124500675
+modified: 20220912180917040
+modifier: Telumire
+tags: $:/TOC archlinux
+title: Desktop mode
+type: text/vnd.tiddlywiki
+
+<kbd>Steam</kbd> > `Power` > `Switch to Desktop`
+
+steamOS runs a modified version of Arch Linux with the KDE Plasma desktop environment. Softwares ('[[Flatpaks]]') can be installed through '[[Discover]]'.

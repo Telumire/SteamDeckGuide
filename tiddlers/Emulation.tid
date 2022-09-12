@@ -1,0 +1,40 @@
+created: 20220830095501145
+modified: 20220912180917040
+modifier: Telumire
+sources: https://overkill.wtf/emulation-nintendo-sony-steam-deck/
+tags: $:/TOC
+title: Emulation
+type: text/vnd.tiddlywiki
+
+Emudeck is often recommended but as u/FineWolf pointed out in [[his post|https://www.reddit.com/r/SteamDeck/comments/x3auaq/can_we_have_a_discussion_about_emudecks/]], it may not be safe to use :
+
+
+<<<
+EmuDeck is installed using bash scripts which:
+
+* are not signed, opening it to a possible hijacking attack. Most Linux professionals will tell you to never curl | bash a script, and yet, that's how the install and updates of EmuDeck work.
+* installs a mix of Flatpak dependencies as well as non-Flatpak ones
+* modifies the configuration of Steam and previously installed emulators without user input or consent if going through the default install (not expert).
+* isn't sandboxed
+* creates a bunch of generically named folders instead of managing its dependencies in one "EmuDeck" folder (making removal difficult - the uninstall script doesn't even remove most of them); some of which don't contain what you'd expect (did you know EmuDeck installs Cemu in Emulation/roms/wiiu? Does it make sense?)
+* can, if an error is made while releasing an update, screw up your Deck's installation royally.
+* don't exactly inspire confidence with their quality and lack of basic bash best practices
+
+and that's notwithstanding the UX nightmare that is managing your ROM collection with Steam Rom Manager for non technical users.
+
+RetroDeck on the other hand:
+
+* is a Flatpak, which means that it
+** is signed
+** is self-contained (including all its dependencies like RetroArch, etc...)
+** cannot create system issues on updates due to a bug in a bash script
+** doesn't modify configuration of other apps (including Steam and other previously installed emulators)
+* is a one click install and update through the Discover store.
+* doesn't use bash scripts for installation and updating
+* is way easier for a user to maintain (scrapping in EmulationStation-DE is just more user-friendly than Rom Manager ever will be).
+* creates a clearly identified retrodeck folder for all of its user-provided dependencies, in clearly named sub-folders (ROMs, BIOSes, EmulationStation themes, etc.)
+<<<
+
+To sum it up, retrodeck is safer and cleaner, but updates may be a bit slower. You will also need to manually install Steam Rom Manager if you want your rom to be available in game mode.
+
+EmuDeck create a lot of files and folders all over the place, and the uninstaller seems to miss some things. To properly uninstall EmuDeck, see [[How to uninstall EmuDeck]].
