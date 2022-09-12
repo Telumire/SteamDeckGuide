@@ -1,0 +1,23 @@
+created: 20211027134000011
+list-before: $:/core/ui/ViewTemplate/body
+modified: 20220830180428058
+revision: 0
+tags: $:/showInfo/macro/copy-code $:/tags/ViewTemplate
+title: $:/showInfo/code/Stylesheet/ViewTemplate
+type: text/vnd.tiddlywiki
+
+<$list filter="[all[current]tag[$:/tags/Stylesheet]]">
+<$reveal tag="div" type="nomatch" stateTitle=<<folded-state>> text="hide">
+<$macrocall $name="copy-code" language=css display-language=show code={{!!text}} />
+</$reveal>
+</$list>
+<$list filter="[all[current]tag[$:/tags/Macro]]">
+<$reveal tag="div" type="nomatch" stateTitle=<<folded-state>> text="hide">
+<$macrocall $name="copy-code" language="text/vnd.tiddlywiki" display-language=show code={{!!text}} />
+</$reveal>
+</$list>
+<$list filter="[all[current]tag[$:/tags/ViewTemplate]]">
+<$reveal tag="div" type="nomatch" stateTitle=<<folded-state>> text="hide">
+<$macrocall $name="copy-code" language="text/vnd.tiddlywiki" display-language=show code={{!!text}} />
+</$reveal>
+</$list>

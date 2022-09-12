@@ -1,0 +1,65 @@
+created: 20210527204100789
+creator: user
+modified: 20220105145036165
+modifier: user
+revision: 0
+tags: $:/showInfo/macro/copy-code
+title: $:/showInfo/macro/copy-code/examples
+type: text/vnd.tiddlywiki
+
+;Default code block (without copy-to-clipboard) (syntax coloring provided by [[highlight.js|$:/plugins/tiddlywiki/highlight]])
+
+```html
+<ul>
+ <li>Without title</li>
+</ul>
+```
+
+;Basic macro call copy-code-to-clipboard <kbd>alt-m</kbd>
+
+<<copy-code html
+"<ul>
+ <li>Without title</li>
+</ul>">>
+
+<<copy-code html
+"<ul>
+ <li>Without language indicator</li>
+</ul>" "" hide>>
+
+<<copy-code "html"
+"<ul>
+ <li>default parameter order</li>
+</ul>"
+
+"Now with a title !">>
+
+<<copy-code 
+title:"Code sample"
+language:html
+code:"<ul>
+ <li>Specific parameter order</li>
+</ul>"
+>>
+
+;~~Limitation : can't use <<>> inside a block of code with this technique, otherwise it breaks :~~
+> EDIT: the newer version of tiddlywiki no longer have this issue !
+
+<<copy-code 
+title:"Code sample"
+language:html
+code:"<ul>
+ <li>Specific parameter order</li> <<not safe to use>>
+</ul>"
+>>
+
+;The full macrocall notation <kbd>alt-shift-m</kbd> prevent this issue :
+
+<$macrocall $name="copy-code"
+title="Code sample"
+language=html
+display-language=show
+code="<ul>
+ <li>This works !</li> <<safe to use>>
+</ul>"
+/>

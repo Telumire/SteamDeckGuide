@@ -1,0 +1,14 @@
+created: 20220912082202632
+modified: 20220912082512437
+tags: 
+title: $:/save
+
+\whitespace trim
+<$button>
+<$wikify name="site-title" text={{$:/config/SaveWikiButton/Filename}}>
+<$action-sendmessage $message="tm-save-wiki" $param={{$:/config/SaveWikiButton/Template}} filename=<<site-title>>/>
+</$wikify>
+<span class="tc-dirty-indicator">
+<$text text={{$:/language/Buttons/SaveWiki/Caption}}/>
+</span>
+</$button>

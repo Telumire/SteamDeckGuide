@@ -1,0 +1,84 @@
+comment: <<copy-code html """test""" "title">>
+created: 20210527214847395
+creator: user
+modified: 20220830164301445
+modifier: user
+revision: 0
+tags: $:/showInfo/macro/copy-code $:/tags/Stylesheet
+title: $:/showInfo/macro/copy-code/style
+type: text/vnd.tiddlywiki
+
+.copy-code{
+    font-family: Consolas;
+}
+
+.copy-code dt{
+    background: <<color pre-background>>;
+    border: solid 1px <<color pre-border>>;
+    border-bottom:unset;
+    padding: 0.5em;
+    border-radius: 3px 3px 0 0;
+    font-size: 1.1em;
+}
+
+.copy-code dt:empty, .copy-code dd small.hide{
+    display: none;
+}
+
+.copy-code dd{
+    margin: 0;
+}
+
+.copy-code dd>pre{
+    border-radius: 3px;
+    background-color:<<color tiddler-editor-background>>
+}
+
+.copy-code dt:not(:empty)+dd>pre{
+    border-radius: 0 0 3px 3px;
+    margin-top: 0em;
+}
+
+.copy-code dd{
+    position: relative;
+    display: block;
+}
+
+.copy-code dd :is(button, small) {
+    position: absolute;
+    opacity: 0.3;
+    padding: 5px;
+}
+
+.copy-code dd button:hover{
+    transition: opacity 150ms ease-in-out;
+    opacity: 1;
+}
+
+.copy-code dd button {
+    font-size: 0;
+    right:0;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-end;
+    pointer-events:none;
+}
+
+.copy-code dd button svg {
+    width: 20px;
+    height: auto;
+    pointer-events:all;
+}
+
+.copy-code dd small {
+    inset: auto 0 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+/*Blink when copy*/
+
+.copy-code :active:hover + pre {
+border: solid 1px white;
+}

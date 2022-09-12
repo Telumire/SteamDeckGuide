@@ -1,0 +1,25 @@
+caption: shortcut copy code button with full macrocall syntax
+condition: [<targetTiddler>!has[type]] [<targetTiddler>type[text/vnd.tiddlywiki]]
+created: 20210528014602259
+creator: user
+description: Transform the selection into a code bloc with a copy to clipboard button - allow double angle brackets
+icon: $:/core/images/copy-clipboard
+modified: 20211027155009472
+modifier: user
+revision: 0
+shortcuts: alt-shift-m
+tags: $:/tags/EditorToolbar $:/showInfo/macro/copy-code
+title: $:/showInfo/macro/copy-code/shortcuts/full
+type: text/vnd.tiddlywiki
+
+<$action-sendmessage
+    $message="tm-edit-text-operation"
+    $param="wrap-selection"
+    prefix='<$macrocall $name="copy-code"
+title=""
+language=""
+display-language="show"
+code="""'
+
+suffix='"""/>'
+/>
