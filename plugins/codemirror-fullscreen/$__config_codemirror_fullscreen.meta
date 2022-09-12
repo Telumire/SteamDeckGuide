@@ -1,0 +1,3 @@
+extend: extraKeys
+title: $:/config/codemirror/fullscreen
+type: json
