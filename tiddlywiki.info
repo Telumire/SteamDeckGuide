@@ -1,0 +1,20 @@
+{
+    "plugins": [
+        "tiddlywiki/codemirror",
+        "tiddlywiki/codemirror-autocomplete",
+        "tiddlywiki/codemirror-closebrackets",
+        "tiddlywiki/codemirror-closetag",
+        "tiddlywiki/codemirror-mode-css",
+        "tiddlywiki/codemirror-mode-htmlembedded",
+        "tiddlywiki/codemirror-mode-htmlmixed",
+        "tiddlywiki/codemirror-mode-javascript",
+        "tiddlywiki/codemirror-mode-xml",
+        "tiddlywiki/codemirror-search-replace",
+        "tiddlywiki/highlight",
+        "tiddlywiki/markdown"
+    ],
+    "themes": [
+        "tiddlywiki/snowwhite",
+        "tiddlywiki/vanilla"
+    ]
+}
