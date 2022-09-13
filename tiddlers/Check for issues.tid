@@ -1,10 +1,10 @@
 created: 20220830101143949
-modified: 20220912180917040
+creator: Telumire
+modified: 20220913003906277
 modifier: Telumire
 sources: [[Kevin Wammer - Steam Deck Starter Guide: Here’s what to do first|https://overkill.wtf/steam-deck-starter-guide-start-here]]
 tags: $:/TOC
 title: Check for issues
-type: text/vnd.tiddlywiki
 
 !!! Most frequent Steam Deck issues mentioned by the community
 
@@ -15,7 +15,7 @@ type: text/vnd.tiddlywiki
 * Sticky ABXY buttons — the B button seems especially prone to this
 * [[Replacing the fan]]
 
-If you are sure it's not a software issue, [[contact support|https://help.steampowered.com/en/]] and start an [[RMA|https://en.wikipedia.org/wiki/Return_merchandise_authorization]] process.
+If you are sure it's not a software issue, [[contact support|https://help.steampowered.com/en/]] and start the [[RMA|https://en.wikipedia.org/wiki/Return_merchandise_authorization]] process.
 
 !!! Test your inputs
 
