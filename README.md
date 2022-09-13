@@ -2,7 +2,7 @@
 A wiki to help you make the most of your Steam Deck, powered by TiddlyWiki.
 
 # Contributing
-For now, the easiest way for me to allow other to make contribution is for you to edit or upload the files inside the "tiddlers" folder of this github repo. I will review your submission and update the live wiki at https://steamdeckguide.tiddlyhost.com.
+For now, the easiest way for me to allow other to make contribution is for you to edit or upload the files inside the "tiddlers" folder of this github repo. I will review your submission and update the live wiki at https://steamdeckguide.tiddlyhost.com or https://www.telumire.be/SteamDeckGuide (github page).
 
 A neat way to do that is to use the vscode web editor. Simply press `.` to open the editor. In the file explorer (ctrl+shift+e), unfold the "tiddlers" folder, then edit the tiddlers or create your own. To push your changes, go to the Source Control (ctrl+shift+g), set a message and press the checkmark button.
 
