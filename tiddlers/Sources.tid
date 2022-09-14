@@ -1,0 +1,18 @@
+created: 20220830100013462
+modified: 20220831195416005
+tags: $:/tags/SideBar Welcome
+title: Sources
+type: text/vnd.tiddlywiki
+
+\define getSources() [get[sources]enlist-input[]format:titlelist[]]+[unique[]]
+\define getRef() [all[tiddlers]search:sources<source>]
+\define listRefSeparator()<$text text={{{ [<ref-last>match[no]then[,]] }}}/>
+\define listRef()
+<$list filter=<<getRef>> counter="ref"><$link tooltip={{!!title}}><<ref>></$link><<listRefSeparator>></$list>
+\end
+
+<ul>
+<$list filter=<<getSources>> variable="source">
+<li><<source>> (<<listRef>>)</li>
+</$list>
+</ul>

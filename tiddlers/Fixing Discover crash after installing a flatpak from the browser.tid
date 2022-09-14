@@ -1,0 +1,18 @@
+created: 20220913222639639
+creator: Telumire
+modified: 20220913224336530
+modifier: Telumire
+sources: [[u/brettygud_ : PSA - If you installed GameHub or a similar flatpak and it causes Discover to crash on opening "Installed", it can be fixed without re-imaging your whole Deck|https://www.reddit.com/r/SteamDeck/comments/v7lfip/psa_if_you_installed_gamehub_or_a_similar_flatpak/]]
+tags: troubleshoot
+title: Fixing Discover crash after installing a flatpak from the browser
+type: text/vnd.tiddlywiki
+
+If you install a flatpak directly from Firefox (e.g [[GameHub|https://www.reddit.com/r/SteamDeck/comments/v7lfip/psa_if_you_installed_gamehub_or_a_similar_flatpak/]]), Discover might crash when opening "Installed". To fix that, before re-imaging your Deck, you can try to uninstall the problematic flatpak with the command line.
+
+* In Desktop Mode : <kbd>Start menu</kbd> > `System` > `Konsole`
+* Enter the following command  (<kbd>Steam + X</kbd> to bring up on-screen keyboard) : <<copy-code code:"""flatpak list""">>
+* You should see something like this :  <pre>Name                      Application ID
+...
+GameHub                   com.install.tkashkin.gamehub
+</pre>
+* Uninstall your app using it's App ID : <<copy-code code:"""flatpak uninstall com.install.tkashkin.gamehub""">>

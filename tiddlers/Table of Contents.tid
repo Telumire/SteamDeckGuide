@@ -1,0 +1,22 @@
+advanced-search: yes
+created: 20220830101746932
+creator: Telumire
+modified: 20220912194153804
+modifier: Telumire
+search: 
+tags: $:/tags/SideBar Welcome
+title: Table of Contents
+type: text/vnd.tiddlywiki
+
+Search the TOC with the search field below, or <a href="#:Welcome[list[TOC]]=[!is[system]sort[title]]+[unique[]]-[[Welcome]tagging[]]">view all entries at once</a>.
+
+<$tiddler tiddler="$:/TOC">
+{{||$:/edit-search-field}}
+
+<<list-links "
+[[$:/TOC]list[!!tag selection]tagging[]tag[$:/TOC]]
+~[tag[$:/TOC]]
+:filter[search:*{$:/TOC!!search}!is[system]]
+
+">>
+</$tiddler>

@@ -1,14 +1,15 @@
 created: 20220830095501145
-modified: 20220912180917040
+creator: Telumire
+modified: 20220914002051444
 modifier: Telumire
-sources: https://overkill.wtf/emulation-nintendo-sony-steam-deck/
+sources: https://overkill.wtf/emulation-nintendo-sony-steam-deck/ [[u/sporkyuncle : An endorsement in favor of Steam RetroArch, and instructions for adding more cores to it|https://www.reddit.com/r/SteamDeck/comments/xcvs4r]]
 tags: $:/TOC
 title: Emulation
 type: text/vnd.tiddlywiki
 
-Emudeck is often recommended but as u/FineWolf pointed out in [[his post|https://www.reddit.com/r/SteamDeck/comments/x3auaq/can_we_have_a_discussion_about_emudecks/]], it may not be safe to use :
+!!! Emudeck vs Retrodeck
 
-
+Emudeck is often recommended but as u/FineWolf pointed out in<<details summary:"his post" """
 <<<
 EmuDeck is installed using bash scripts which:
 
@@ -33,8 +34,56 @@ RetroDeck on the other hand:
 * doesn't use bash scripts for installation and updating
 * is way easier for a user to maintain (scrapping in EmulationStation-DE is just more user-friendly than Rom Manager ever will be).
 * creates a clearly identified retrodeck folder for all of its user-provided dependencies, in clearly named sub-folders (ROMs, BIOSes, EmulationStation themes, etc.)
-<<<
+<<<https://www.reddit.com/r/SteamDeck/comments/x3auaq/can_we_have_a_discussion_about_emudecks/
 
-To sum it up, retrodeck is safer and cleaner, but updates may be a bit slower. You will also need to manually install Steam Rom Manager if you want your rom to be available in game mode.
+""">>, it may not be safe to use.
 
-EmuDeck create a lot of files and folders all over the place, and the uninstaller seems to miss some things. To properly uninstall EmuDeck, see [[How to uninstall EmuDeck]].
+
+
+TL;DR : retrodeck is safer and cleaner, but updates may be a bit slower. You will also need to manually install Steam Rom Manager if you want your rom to be available in game mode.
+
+EmuDeck create a lot of files and folders all over the place, and the uninstaller [[seems to miss some things|https://www.reddit.com/r/SteamDeck/comments/x7a6sr/warning_emudeck_is_very_hard_to_uninstall/]]. To properly uninstall EmuDeck, see [[How to uninstall EmuDeck]].
+
+!!! Steam RetroArch
+
+You can download RetroArch directly from Steam.
+
+<table>
+<tr>
+<td style="vertical-align: baseline;">
+
+;Pro
+* Since it's an official steam release, it supports cloud saves
+* Do not require art and shortcut configuration
+* Since it's installed from Steam, it's easy to install on your SD card. Other emulation methods may require extra steps with directories in desktop mode to preserve those emulators in case of an update/re-imaging.
+* Your games are contained within RetroArch, preventing cluttering your library.
+* Consistent control schemes and hotkeys.
+</td>
+<td style="vertical-align: baseline;">
+
+;Cons
+* PS2 emulation and up might be unable to smoothly run at an internal render resolution of 2x, or other features which might improve visuals - standalone emulator will perform better.
+* High learning curve. However, there are lots of tutorials out there.
+* You will likely have to map some buttons on your own - the layout is not adapted to the Deck by default. 
+* The steam release is missing some cores (emulators) due to licensing issues, e.g SwanStation. It's possible to add them manually, however.
+</td>
+</tr>
+</table>
+
+;Adding missing cores to the steam release
+
+The easiest method is to download the missing cores using the standalone Linux release and copy them over.
+
+* Install the Steam version of RetroArch
+* Switch to desktop mode > Discover > Install RetroArch
+* Open Discover RetroArch > Main Menu > Online Updater > Core Downloader. Select a core and download it.
+* Locate the `.so` (core) and `.info` files : <<copy-code code:"""home/.var/app/org.libretro.RetroArch/config/RetroArch/cores""" title:"Cores path">> <<copy-code code:"""var/lib/flatpak/app/org.libretro.RetroArch/x86_64/stable/[lots of letters and numbers]/files/share/libretro/info""" title:"Info path">><p>
+
+Alternatively, you can download the files directly from RetroArch's buildbot:
+
+* `.info` files : https://buildbot.libretro.com/nightly/linux/x86_64/RetroArch.7z . The files are located at `RetroArch.7z\RetroArch-Linux-x86_64\RetroArch-Linux-x86_64.AppImage.home\.config\retroarch\cores`
+* `.so` files : https://buildbot.libretro.com/nightly/linux/x86_64/latest/
+
+</p>
+* Copy/Paste these files into the Steam RetroArch cores folder. If installing to an SD card, you will find that folder here: <<copy-code code:"""run/media/[SD card name, likely mmcblk0p1]/steamapps/common/RetroArch/cores""">>
+

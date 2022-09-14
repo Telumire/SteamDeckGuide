@@ -1,6 +1,6 @@
 created: 20220912151745153
 creator: Telumire
-modified: 20220912153221802
+modified: 20220913231600587
 modifier: Telumire
 sources: https://www.reddit.com/r/SteamDeck/comments/xaysrh/install_nonsteam_game_via_bottles_and_add_custom/
 tags: customization [[Launchers for non-steam games]]
@@ -32,14 +32,13 @@ You may have permission issue, if so , add sudo before the commands above, if it
 ** click <kbd>+</kbd> button to select the exe of your games
 ** Press the play button to test it is running fine
 ** Press the <kbd>...</kbd> on the game entry and <kbd>Add to steam</kbd>, you may need to stop/start steam to see the effect.
+** You can also add to steam using boilr (see bellow).
 
 !!!.c Using boilr to add custom arts for non-steam game
 
-* Download `boilr` using discovery or from https://github.com/PhilipK/BoilR/releases
-* If using the executable downloaded from github (said to be more powerful), you need to right click —> `properties` —> `Permissions` —> `Is executable` (toggle), so you can run it.
+* Download `boilr` using discovery or from https://github.com/PhilipK/BoilR/releases. <br>If using the executable downloaded from github (said to be more powerful), you need to right click —> `properties` —> `Permissions` —> `Is executable` (toggle), so you can run it.
 * Go to the `settings`, add your steamgriddb API to it https://www.steamgriddb.com/profile/preferences/api
-* Go into the `Images` side bar and press the button at the bottom to import the game arts
-* If it is not to your liking, you can click the title and hand pick the images yourself later.
+* Go into the `Images` side bar and press the button at the bottom to import the game arts <br> If it is not to your liking, you can click the title and hand pick the images yourself later.
 * Sometimes there is a boilr bug, where all the images look the same. In this case, open steam and have a look at those non-steam game and close steam and redo boilr typically fix them.
 
 !!!.c (still improving): install games from epic/origin/gog etc
@@ -49,17 +48,8 @@ You may have permission issue, if so , add sudo before the commands above, if it
 * Open the bottle (new or existing one), and on the side bar choose `installers`
 * Choose the launchers to your liking - I have tried epic, gog, EA, blizzard, and ubisoft - all works
 * Install any game from any of the launcher
-* ''Add to steam'':
-** I find game installed in bottles doesn't play in steam when using the three dots --> add to steam
-** In the meantime, the solution I found is to create a new .sh file <span>
-<<copy-code code:"""#!/bin/bash""">>
-<$macrocall $name="copy-code"
-title=""
-language=""
-display-language="show"
-code="""flatpak run --command=bottles-cli com.usebottles.bottles run -b Launchers -p "Lost In Random" """/>
-</span>
-* Add it to non-steam game by right click and you are good to go
+** To install any game to SD card, you need to grant file system access, use the software `flatseal` from discovery, go to `filesystem` > `Other files` and add `/run/media/{your sd card ID}`. Now when you install any game, you can find the SD card marked as the `E:/` drive.
+* ''Note'': In previous versions of Boilr, game installed in bottles didn't play in steam when using the three dots > add to steam. The latest update works perfectly. So stick with that and dont use add to steam from bottles, which has problems.
 
 End result (here displaying some non-steam game + steam games + some apps all having nice cover arts):
 

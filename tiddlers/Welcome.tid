@@ -2,12 +2,13 @@ created: 20220830172402101
 creator: Telumire
 icon: Logo/SteamDeck
 list: [[Offline use]] [[Table of Contents]] Sources About
-modified: 20220912193802921
+modified: 20220913001026006
 modifier: Telumire
 title: Welcome
 type: text/vnd.tiddlywiki
 
 This guide contains all kind of usefull tips that I found online, hopefully it will help you use your Steam Deck to the fullest. Latest update : {{$:/Latest update}}.
+
 
 <$list filter="[{!!title}tagging[]]">
 
