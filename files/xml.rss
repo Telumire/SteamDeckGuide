@@ -6,8 +6,243 @@
   <link>https://steamdeckguide.tiddlyhost.com/</link>
   <description>make the most of your Steam Deck</description>
   <language>en-GB</language>
-  <lastBuildDate>Sun, 25 Dec 2022 20:52:31 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 25 Dec 2022 20:56:14 GMT</lastBuildDate>
 	<item>
+      <title>Welcome</title>
+      <description></description>
+      <category></category>
+      <content:encoded><![CDATA[<p>This guide contains all kind of usefull tips that I found online, hopefully it will help you use your Steam Deck to the fullest. Latest update : 
+<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20Make%20Desktop%20Navigation%20on%20the%20Steam%20Deck%20Better">How to Make Desktop Navigation on the Steam Deck Better</a>, 10 minutes ago
+.</p><dl><dt>Offline use <span class="tc-tiddler-controls float-left"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2FLibro%2FSettings%2FFeed%2FSendFeed" title="Set browser address bar to a direct link to this tiddler"><svg class="tc-image-permalink-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><path d="M80.483 48l-7.387 32h-25.58l7.388-32h25.58zm3.694-16l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L100.598 32h3.403c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8h-7.096l-7.387 32H104c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8H85.824l-5.624 24.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L69.402 96h-25.58L38.2 120.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L27.402 96h-3.403C19.59 96 16 92.418 16 88c0-4.41 3.581-8 8-8h7.096l7.387-32H24C19.59 48 16 44.418 16 40c0-4.41 3.581-8 8-8h18.177l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L58.598 32h25.58z" fill-rule="evenodd"></path></svg><span class="tc-btn-text">permalink</span></button></span></dt></dl><p>Use the button bellow to download this guide. You will get a html file that you can open in any modern web browser.</p><p><button class="tc-btn-download" title="Download Empty">
+Download
+</button></p><p><style>
+.tc-btn-download:active,.tc-btn-download:focus{
+	outline:none;
+}
+.tc-btn-download {
+	padding: 10px 30px;
+	border-radius: 5px;
+	background: #1462ff;
+	border: none;
+	box-shadow: 0 2px 2px 0 #4a74c9;
+	overflow: hidden;
+	cursor: pointer;
+	font-size: 1.2em;
+	line-height: 1.4em;
+	color: #fff;
+	fill: #fff;
+}
+
+.tc-btn-download:active {
+	background: #1475ff;
+}
+</style></p><dl><dt>Table of Contents <span class="tc-tiddler-controls float-left"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2FLibro%2FSettings%2FFeed%2FSendFeed" title="Set browser address bar to a direct link to this tiddler"><svg class="tc-image-permalink-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><path d="M80.483 48l-7.387 32h-25.58l7.388-32h25.58zm3.694-16l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L100.598 32h3.403c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8h-7.096l-7.387 32H104c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8H85.824l-5.624 24.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L69.402 96h-25.58L38.2 120.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L27.402 96h-3.403C19.59 96 16 92.418 16 88c0-4.41 3.581-8 8-8h7.096l7.387-32H24C19.59 48 16 44.418 16 40c0-4.41 3.581-8 8-8h18.177l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L58.598 32h25.58z" fill-rule="evenodd"></path></svg><span class="tc-btn-text">permalink</span></button></span></dt></dl><p>Search the TOC with the search field below, or <a href="#:Welcome[list[TOC]]=[!is[system]sort[title]]+[unique[]]-[[Welcome]tagging[]]">view all entries at once</a>.</p><p>
+<div class="search-field tc-search">
+<input placeholder="search" type="text" value="">
+
+
+    <button class="tc-btn-invisible">
+    <input checked="true" class="cbx-invisible" type="checkbox"><svg class="tc-image-advanced-search-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><g fill-rule="evenodd"><path d="M74.565 87.985A47.776 47.776 0 0148 96C21.49 96 0 74.51 0 48S21.49 0 48 0s48 21.49 48 48c0 9.854-2.97 19.015-8.062 26.636l34.347 34.347a9.443 9.443 0 010 13.36 9.446 9.446 0 01-13.36 0l-34.36-34.358zM48 80c17.673 0 32-14.327 32-32 0-17.673-14.327-32-32-32-17.673 0-32 14.327-32 32 0 17.673 14.327 32 32 32z"></path><circle cx="48" cy="48" r="8"></circle><circle cx="28" cy="48" r="8"></circle><circle cx="68" cy="48" r="8"></circle></g></svg>
+    </button>
+
+</div>
+<p class="tagcloud">
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="buying guide"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">buying guide</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="troubleshoot"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">troubleshoot</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="increasing the storage"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">increasing the storage</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="accessories"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">accessories</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="Improving performances"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">Improving performances</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="archlinux"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">archlinux</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="GoG"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">GoG</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="Epic Games"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">Epic Games</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="customization"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">customization</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="productivity"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">productivity</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="hardware mods"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">hardware mods</span></span>
+    </button>
+</span>
+
+<span class=" tc-tag-list-item ">
+    <button class="tc-btn-invisible">
+    <input class="cbx-invisible" type="checkbox"><span class="tc-tag-list-item" data-tag-title="TiddlyWiki"><span class="tc-tag-label tc-btn-invisible" style="background-color:;
+fill:#333333;
+color:#333333;">TiddlyWiki</span></span>
+    </button>
+</span>
+
+</p>
+
+<ul class=""><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Buying%20the%20Steam%20Deck%20in%204%20with%20PayPal%2C%20interest-free">Buying the Steam Deck in 4 with PayPal, interest-free</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Update%20your%20steam%20deck">Update your steam deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Check%20for%20issues">Check for issues</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Calibrate%20the%20battery%20if%20needed">Calibrate the battery if needed</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#microSD%20card">microSD card</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#USB-C%20Hub">USB-C Hub</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20optimize%20games%20for%20the%20Steam%20Deck">How to optimize games for the Steam Deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Community%20layout">Community layout</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Install%20%22incompatible%22%20games">Install "incompatible" games</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Desktop%20mode">Desktop mode</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Using%20the%20Terminal">Using the Terminal</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Launchers%20for%20non-steam%20games">Launchers for non-steam games</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Emulation">Emulation</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Installing%20plugins%20with%20the%20Decky%20Loader">Installing plugins with the Decky Loader</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Stream%20games%20from%20a%20PC">Stream games from a PC</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Transfer%20files%20from%20a%20windows%20PC%20to%20the%20Steam%20Deck">Transfer files from a windows PC to the Steam Deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Accessories%20for%20Steam%20Deck">Accessories for Steam Deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#CAD%20files">CAD files</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Cleaning%20the%20screen%20of%20the%20Steam%20Deck">Cleaning the screen of the Steam Deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Customizing%20the%20booting%20animation">Customizing the booting animation</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Develop%20Angular%2FIonic%20project%20on%20Steam%20Deck">Develop Angular/Ionic project on Steam Deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20install%20KDE%20Connect">How to install KDE Connect</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20reinstall%20steamOS">How to reinstall steamOS</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Replacing%20the%20fan">Replacing the fan</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Steam%20Deck%20Desktop%3A%20FAQ">Steam Deck Desktop: FAQ</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Steam%20Deck%20Recovery%20Instructions">Steam Deck Recovery Instructions</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Steam%20Support%20FAQS">Steam Support FAQS</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Upgrading%20the%20SSD">Upgrading the SSD</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Using%20TiddlyWiki%20on%20a%20Steam%20Deck">Using TiddlyWiki on a Steam Deck</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Other%20resources">Other resources</a></li><li><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Steam%20Button%20Shortcuts">Steam Button Shortcuts</a></li></ul>
+</p><dl><dt>Sources <span class="tc-tiddler-controls float-left"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2FLibro%2FSettings%2FFeed%2FSendFeed" title="Set browser address bar to a direct link to this tiddler"><svg class="tc-image-permalink-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><path d="M80.483 48l-7.387 32h-25.58l7.388-32h25.58zm3.694-16l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L100.598 32h3.403c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8h-7.096l-7.387 32H104c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8H85.824l-5.624 24.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L69.402 96h-25.58L38.2 120.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L27.402 96h-3.403C19.59 96 16 92.418 16 88c0-4.41 3.581-8 8-8h7.096l7.387-32H24C19.59 48 16 44.418 16 40c0-4.41 3.581-8 8-8h18.177l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L58.598 32h25.58z" fill-rule="evenodd"></path></svg><span class="tc-btn-text">permalink</span></button></span></dt></dl><p><ul>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/vbk0j3/custom_artwork_on_the_steam_deck_with_steamgriddb" rel="noopener noreferrer" target="_blank">Custom Artwork on the Steam Deck with SteamGridDB and SGDBoop!</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#%24%3A%2FTODO%3A%20Custom%20Artwork%20with%20SteamGridDB%20and%20SGDBoop" title="$:/TODO: Custom Artwork with SteamGridDB and SGDBoop">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=3iivwka513Y" rel="noopener noreferrer" target="_blank">CryoByte33 - EASY Performance Boosts for Steam Deck!</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Boosting%20gaming%20performances%3A%20SWAP%2C%20VRAM%2C%20TRIM" title="Boosting gaming performances: SWAP, VRAM, TRIM">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://youtu.be/od9_a1QQQns" rel="noopener noreferrer" target="_blank">CryoByte33 - EASY &amp; SAFE Health &amp; Performance Boosts</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Boosting%20gaming%20performances%3A%20SWAP%2C%20VRAM%2C%20TRIM" title="Boosting gaming performances: SWAP, VRAM, TRIM">1</a>,<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Troubleshooting%20performances" title="Troubleshooting performances">2</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/w23hha" rel="noopener noreferrer" target="_blank">How I rescued my Steam Deck screen from the delamination / bubbles issue (hopefully)</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Bubbles%20under%20the%20screen" title="Bubbles under the screen">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/uo6d3d/paypal_pay_in_4_does_work/" rel="noopener noreferrer" target="_blank">Paypal "Pay in 4" Does Work</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Buying%20the%20Steam%20Deck%20in%204%20with%20PayPal%2C%20interest-free" title="Buying the Steam Deck in 4 with PayPal, interest-free">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.paypal.com/us/smarthelp/article/what-is-pay-in-4-faq4333" rel="noopener noreferrer" target="_blank">What is Pay in 4?</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Buying%20the%20Steam%20Deck%20in%204%20with%20PayPal%2C%20interest-free" title="Buying the Steam Deck in 4 with PayPal, interest-free">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.paypal.com/us/digital-wallet/ways-to-pay/buy-now-pay-later" rel="noopener noreferrer" target="_blank">Buy now, pay later with PayPal</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Buying%20the%20Steam%20Deck%20in%204%20with%20PayPal%2C%20interest-free" title="Buying the Steam Deck in 4 with PayPal, interest-free">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://overkill.wtf/steam-deck-starter-guide-start-here" rel="noopener noreferrer" target="_blank">Kevin Wammer - Steam Deck Starter Guide: Here’s what to do first</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Calibrate%20the%20battery%20if%20needed" title="Calibrate the battery if needed">1</a>,<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Check%20for%20issues" title="Check for issues">2</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/wwz6a8/steam_deck_bubble_issue_512g" rel="noopener noreferrer" target="_blank">Steam Deck Bubble Issue (512G)</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Cleaning%20the%20screen%20of%20the%20Steam%20Deck" title="Cleaning the screen of the Steam Deck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/u9x8kt/how_to_delete_custom_steam_input_layouts/i61whb8/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/SteamDeck/comments/u9x8kt/how_to_delete_custom_steam_input_layouts/i61whb8/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Community%20layout" title="Community layout">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io49cv2/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io49cv2/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Community%20layout" title="Community layout">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/wzardt/startup_animation_index" rel="noopener noreferrer" target="_blank">Startup Animation Index</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Curated%20list%20of%20custom%20Steam%20Deck%20Boot%20curated%20by%20u%2Fdeadcowards" title="Curated list of custom Steam Deck Boot curated by u/deadcowards">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://youtu.be/a4mctgqWM8o" rel="noopener noreferrer" target="_blank">Gaming On Linux - Custom Steam Deck boot animation GUIDE</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Customizing%20the%20booting%20animation" title="Customizing the booting animation">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xi3vno/my_custom_futurama_boot_video/ip196e6/" rel="noopener noreferrer" target="_blank">u/DerpinHerps - My Custom Futurama Boot video</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Customizing%20the%20booting%20animation" title="Customizing the booting animation">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=ZLpOUKyus8c" rel="noopener noreferrer" target="_blank">Steam Deck custom boot animations go official!</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Customizing%20the%20booting%20animation" title="Customizing the booting animation">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://overkill.wtf/emulation-nintendo-sony-steam-deck/" rel="noopener noreferrer" target="_blank">https://overkill.wtf/emulation-nintendo-sony-steam-deck/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Emulation" title="Emulation">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xcvs4r" rel="noopener noreferrer" target="_blank">u/sporkyuncle : An endorsement in favor of Steam RetroArch, and instructions for adding more cores to it</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Emulation" title="Emulation">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/v7lfip/psa_if_you_installed_gamehub_or_a_similar_flatpak/" rel="noopener noreferrer" target="_blank">u/brettygud_ : PSA - If you installed GameHub or a similar flatpak and it causes Discover to crash on opening "Installed", it can be fixed without re-imaging your whole Deck</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Fixing%20Discover%20crash%20after%20installing%20a%20flatpak%20from%20the%20browser" title="Fixing Discover crash after installing a flatpak from the browser">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xwuibu" rel="noopener noreferrer" target="_blank">u/Ray3DX - When Linux on the Deck runs old Windows games better than Windows itself. Got this childhood gem running flawlessly with Gyro too.</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20get%20Harry%20Potter%20and%20the%20Chamber%20of%20Secrets%20for%20Windows%20running%20on%20the%20Steamdeck" title="How to get Harry Potter and the Chamber of Secrets for Windows running on the Steamdeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/tb7h13/kde_connect_is_available_on_the_steam_deck/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/SteamDeck/comments/tb7h13/kde_connect_is_available_on_the_steam_deck/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20install%20KDE%20Connect" title="How to install KDE Connect">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io52j0n/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/SteamDeck/comments/xc93h0/i_made_a_compilation_of_tips_for_the_steam_deck/io52j0n/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#How%20to%20optimize%20games%20for%20the%20Steam%20Deck" title="How to optimize games for the Steam Deck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://github.com/89luca89/distrobox/blob/main/docs/posts/install_rootless.md#install-on-steamos-3" rel="noopener noreferrer" target="_blank">https://github.com/89luca89/distrobox/blob/main/docs/posts/install_rootless.md#install-on-steamos-3</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Install%20app%20from%20other%20Linux%20distributions%20with%20Distrobox" title="Install app from other Linux distributions with Distrobox">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xaysrh/install_nonsteam_game_via_bottles_and_add_custom/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/SteamDeck/comments/xaysrh/install_nonsteam_game_via_bottles_and_add_custom/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Install%20non-steam%20game%20via%20bottles%20and%20add%20custom%20art%20using%20BoilR" title="Install non-steam game via bottles and add custom art using BoilR">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://overkill.wtf/powertools-decky-quicklaunch" rel="noopener noreferrer" target="_blank">How to install PowerTools and other plugins on your Steam Deck</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Installing%20plugins%20with%20the%20Decky%20Loader" title="Installing plugins with the Decky Loader">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=S8wgTGDWxgM" rel="noopener noreferrer" target="_blank">An introduction (and how-to) to Plugin Loader for the Steam Deck.</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Installing%20plugins%20with%20the%20Decky%20Loader" title="Installing plugins with the Decky Loader">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.pcgamesn.com/steam-deck/best-sd-card" rel="noopener noreferrer" target="_blank">pcgamesn - Best Steam Deck SD card in 2022</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#microSD%20card" title="microSD card">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://youtu.be/eNX4SFMftEY" rel="noopener noreferrer" target="_blank">Best Micro SD Card for Steam Deck (Top 5 Tested &amp; Compared)</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#microSD%20card" title="microSD card">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/x1wasq" rel="noopener noreferrer" target="_blank">PSA: A MicroSD card guide that seems to be sorely needed</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#microSD%20card" title="microSD card">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/OutOfTheLoop/comments/y7647y/whats_going_on_with_polymc_being_declared/" rel="noopener noreferrer" target="_blank">What's going on with PolyMC being declared compromised?</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Minecraft%20Java%20Edition%20on%20SteamDeck" title="Minecraft Java Edition on SteamDeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.ign.com/articles/hijacking-of-popular-minecraft-launcher-by-rogue-developer-raises-malware-fears" rel="noopener noreferrer" target="_blank">IGN - Hijacking of Popular Minecraft Launcher by Rogue Developer Raises Malware Fears</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Minecraft%20Java%20Edition%20on%20SteamDeck" title="Minecraft Java Edition on SteamDeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.gamingonlinux.com/2022/10/if-you-use-polymc-for-minecraft-you-should-switch-away-now/" rel="noopener noreferrer" target="_blank">gamingonlinux - If you use PolyMC for Minecraft you should switch away now</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Minecraft%20Java%20Edition%20on%20SteamDeck" title="Minecraft Java Edition on SteamDeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=zSpneEM_Yto" rel="noopener noreferrer" target="_blank">Minecraft Launcher Comparison Steam Deck</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Minecraft%20Java%20Edition%20on%20SteamDeck" title="Minecraft Java Edition on SteamDeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=dfF5l-T0M5M" rel="noopener noreferrer" target="_blank">Minecraft on Steam Deck - ATlauncher and more.. - (DELETE PolyMC)</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Minecraft%20Java%20Edition%20on%20SteamDeck" title="Minecraft Java Edition on SteamDeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.youtube.com/watch?v=M8oqFUl791Q" rel="noopener noreferrer" target="_blank">Minecraft on Steam Deck, with gamepad controls (October 22 NEW GUIDE)</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Minecraft%20Java%20Edition%20on%20SteamDeck" title="Minecraft Java Edition on SteamDeck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://help.steampowered.com/en/faqs/view/671A-4453-E8D2-323C" rel="noopener noreferrer" target="_blank">Steam Deck Desktop: FAQ</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Steam%20Deck%20Desktop%3A%20FAQ" title="Steam Deck Desktop: FAQ">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3" rel="noopener noreferrer" target="_blank">Steam Deck Recovery Instructions</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Steam%20Deck%20Recovery%20Instructions" title="Steam Deck Recovery Instructions">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://youtu.be/Pt-Y5DYy9mU" rel="noopener noreferrer" target="_blank">The Phawx - Steam Deck - BTRFS Formatted MicroSD Card Works On SteamOS AND Windows!</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Storage%20space%20savings%20and%20faster%20loading%20performance%20with%20btrfs" title="Storage space savings and faster loading performance with btrfs">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://github.com/Trevo525/btrfdeck" rel="noopener noreferrer" target="_blank">https://github.com/Trevo525/btrfdeck</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Storage%20space%20savings%20and%20faster%20loading%20performance%20with%20btrfs" title="Storage space savings and faster loading performance with btrfs">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://gitlab.com/popsulfr/steamos-btrfs/" rel="noopener noreferrer" target="_blank">https://gitlab.com/popsulfr/steamos-btrfs/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Storage%20space%20savings%20and%20faster%20loading%20performance%20with%20btrfs" title="Storage space savings and faster loading performance with btrfs">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/wkz41h/deduplicate_your_files_for_fun_an_profit_or_how/" rel="noopener noreferrer" target="_blank">Deduplicate your files for fun an profit (or how to use Btrfs)</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Storage%20space%20savings%20and%20faster%20loading%20performance%20with%20btrfs" title="Storage space savings and faster loading performance with btrfs">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://overkill.wtf/steam-deck-transfer-files/" rel="noopener noreferrer" target="_blank">https://overkill.wtf/steam-deck-transfer-files/</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Transfer%20files%20from%20a%20windows%20PC%20to%20the%20Steam%20Deck" title="Transfer files from a windows PC to the Steam Deck">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/xjmst0/made_a_12_hour_trek_to_microcenter_and_picked_up/ip9ftqo/" rel="noopener noreferrer" target="_blank">u/FortunePaw on how to backup your SSD</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Upgrading%20the%20SSD" title="Upgrading the SSD">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://www.forbes.com/sites/jasonevangelho/2022/03/04/steam-deck-desktop-mode-challenge-day-1-get-a-hub-and-get-docked/" rel="noopener noreferrer" target="_blank">Steam Deck Guide: Get A USB-C Hub And Start Using Desktop Mode</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#USB-C%20Hub" title="USB-C Hub">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://youtu.be/7Sh-ndQNNrg" rel="noopener noreferrer" target="_blank">NerdNest - ULTIMATE Steam Deck Dock Showdown</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#USB-C%20Hub" title="USB-C Hub">1</a>)</li>
+
+<li><a class="tc-tiddlylink-external" href="https://tutorialforlinux.com/2018/03/20/arch-linux-terminal-tutorial-for-beginners/" rel="noopener noreferrer" target="_blank">Terminal Arch Linux Getting-Started Guide</a> (<a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Using%20the%20Terminal" title="Using the Terminal">1</a>)</li>
+
+</ul></p><dl><dt>About <span class="tc-tiddler-controls float-left"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2FLibro%2FSettings%2FFeed%2FSendFeed" title="Set browser address bar to a direct link to this tiddler"><svg class="tc-image-permalink-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><path d="M80.483 48l-7.387 32h-25.58l7.388-32h25.58zm3.694-16l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L100.598 32h3.403c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8h-7.096l-7.387 32H104c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8H85.824l-5.624 24.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L69.402 96h-25.58L38.2 120.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L27.402 96h-3.403C19.59 96 16 92.418 16 88c0-4.41 3.581-8 8-8h7.096l7.387-32H24C19.59 48 16 44.418 16 40c0-4.41 3.581-8 8-8h18.177l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L58.598 32h25.58z" fill-rule="evenodd"></path></svg><span class="tc-btn-text">permalink</span></button></span></dt></dl><p>This guide was made using <a class="tc-tiddlylink-external" href="https://www.tiddlywiki.com" rel="noopener noreferrer" target="_blank">TiddlyWiki</a>, a unique non-linear notebook for capturing, organising and sharing complex information.</p><p>Mirror : </p><p><a class="tc-tiddlylink-external" href="https://www.telumire.be/SteamDeckGuide" rel="noopener noreferrer" target="_blank">https://www.telumire.be/SteamDeckGuide</a></p><dl><dt>Contribute <span class="tc-tiddler-controls float-left"><button aria-label="permalink" class="tc-btn-invisible tc-btn-%24%3A%2FLibro%2FSettings%2FFeed%2FSendFeed" title="Set browser address bar to a direct link to this tiddler"><svg class="tc-image-permalink-button tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><path d="M80.483 48l-7.387 32h-25.58l7.388-32h25.58zm3.694-16l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L100.598 32h3.403c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8h-7.096l-7.387 32H104c4.41 0 7.999 3.582 7.999 8 0 4.41-3.581 8-8 8H85.824l-5.624 24.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L69.402 96h-25.58L38.2 120.358c-.993 4.303-5.29 6.996-9.596 6.002-4.296-.992-6.988-5.293-5.994-9.602L27.402 96h-3.403C19.59 96 16 92.418 16 88c0-4.41 3.581-8 8-8h7.096l7.387-32H24C19.59 48 16 44.418 16 40c0-4.41 3.581-8 8-8h18.177l5.624-24.358c.993-4.303 5.29-6.996 9.596-6.002 4.296.992 6.988 5.293 5.994 9.602L58.598 32h25.58z" fill-rule="evenodd"></path></svg><span class="tc-btn-text">permalink</span></button></span></dt></dl><p>You can contribute <a class="tc-tiddlylink-external" href="https://github.com/Telumire/SteamDeckGuide" rel="noopener noreferrer" target="_blank">here</a>.</p>]]></content:encoded>
+	  <pubDate>Sun, 25 Dec 2022 20:56:14 GMT</pubDate>
+      <link>https://steamdeckguide.tiddlyhost.com/#Welcome</link>
+      <guid isPermaLink='true'>https://Telumire.github.io/SteamDeckGuide/index.html#Welcome</guid>
+   </item><item>
       <title>How to Make Desktop Navigation on the Steam Deck Better</title>
       <description></description>
       <category>guide</category>
@@ -144,16 +379,6 @@ You may have permission issue, if so , add sudo before the commands above, if it
 	  <pubDate>Sun, 13 Nov 2022 22:25:13 GMT</pubDate>
       <link>https://steamdeckguide.tiddlyhost.com/#A%20guide%20how%20to%20install%20Red%20Dead%20Redemption%202%20from%20Rockstar%20Launcher%20on%20SD%20card</link>
       <guid isPermaLink='true'>https://Telumire.github.io/SteamDeckGuide/index.html#A%20guide%20how%20to%20install%20Red%20Dead%20Redemption%202%20from%20Rockstar%20Launcher%20on%20SD%20card</guid>
-   </item><item>
-      <title>Boosting gaming performances: SWAP, VRAM, TRIM</title>
-      <description></description>
-      <category>Improving performances</category>
-      <content:encoded><![CDATA[<blockquote class="tc-quote"><p>What follow is a written version of videos by <a class="tc-tiddlylink-external" href="https://www.youtube.com/channel/UCJ2wc4hCWI8bEki48Zv45fQ" rel="noopener noreferrer" target="_blank">CryoByte33</a>. Please support him on <a class="tc-tiddlylink-external" href="https://www.patreon.com/cryobyte33" rel="noopener noreferrer" target="_blank">patreon</a>.</p><p>These tips are discussed on reddit here: <a class="tc-tiddlylink-external" href="https://www.reddit.com/r/SteamDeck/comments/ymdj9j/get_the_most_out_of_your_steam_deck_up_to_25/" rel="noopener noreferrer" target="_blank">https://www.reddit.com/r/SteamDeck/comments/ymdj9j/get_the_most_out_of_your_steam_deck_up_to_25/</a>
-</p></blockquote><blockquote><div>If you dont care about explanations on SWAP and TRIM, .</div></blockquote><p>In a computer, there is short and long-term memory. The long-term memory is stored in hard disk drive (HDD), or solid sate drive (SSD) and has more capacity, but is slower compared to short-term memory. The short term memory is stored in various stages of random access memory (RAM). RAM is used to store data for the CPU to access quickly when needed.</p><p>Normally, if the RAM is filled, the computer need to unload data from the RAM and then load new data in. However, in cases such as gaming where we need a certain level of maintained performances over long period of time, any hiccup cause bad frames timing or lower framerate.</p><dl><dt>SWAP</dt></dl><p>A swap file (or page file on windows) is an extension of the RAM stored in long term memory. It's slower but it provide a buffer for seldom used data that are still needed to be at hand.</p><ul><li>CPU cache = super fast and always available but has very limited capacity</li><li>RAM = fast, always available, a bit more capacity but not much</li><li>Swap file = slow, decent storage. Can be resized, while RAM cannot.</li><li>SDD/HDD = very slow, but store lots of data</li></ul><p>By default, the steam deck has 1gb swap file and 16 gb of RAM. The swap can be resized with scripts (on linux).</p><p>Over utilizing swap wear your SSD quicker, but it is not a problem because:</p><ol><li>There is a swap file anyway, and increasing it's size won't cause it to be used more</li><li>Modern SSDs have features that prevent premature failure, like wear leveling and TRIM support in-kernel</li></ol><p>Swappiness: How eager the linux kernel is to put data on the swap rather than RAM on a scale of 0 to 100%. More swappiness = more data in the swap. By default, the steam deck swappiness is set to 100, there will be more data in swap even if there is vacant RAM. A 16GB swap file with a swappiness of 1 will produce less wear than a 1GB swap file with a swappiness of 100.</p><p>This fix will survive OS update but wont survive re-imaging, and is completely reversible. </p><p>The swap file can only be on the internal SSD, not the external sd card !</p><dl><dt>TRIM</dt></dl><p>First, here's a oversimplification of how TRIM and SSDs work:</p><p>Data is writing in pages, to a group called a block. The drive can only write to the block level, not page. When data get deleted, the SSD can't delete pages that are not used anymore, and has to wipe the whole block.  </p><p>Doing this selectively on data writing would be too slow, so instead the drive use an already empty block and mark the old block as "not in use":</p><ol><li>Data is loaded in the cache</li><li>The old data in blocks get moved to cache</li><li>The updated data to be written is formed in the cache</li><li>The blocks are written to a new location while the old blocks are marked as "not in use".</li></ol><p>This work great until the remaining blocks of the drive are "not in use" and not empty, then the drive has to start vacating the blocks before writing to them, which slow down everything.</p><p>TRIM is an operation the drive can do that goes trough every block, check if it they are "not in use" and reinitialize them. This is usually done on a schedule.</p><p>Automatic SSD wear leveling can not works on blocks that are "not in use", thus TRIM can potentially  improve the drive life expectancy, as well as performance. </p><p><a class="tc-tiddlylink tc-tiddlylink-missing doc-from-version" href="#Release%203.4"><svg class="tc-image-warning tc-image-button" height="22pt" viewBox="0 0 128 128" width="22pt"><path d="M57.072 11c3.079-5.333 10.777-5.333 13.856 0l55.426 96c3.079 5.333-.77 12-6.928 12H8.574c-6.158 0-10.007-6.667-6.928-12l55.426-96zM64 37c-4.418 0-8 3.582-8 7.994v28.012C56 77.421 59.59 81 64 81c4.418 0 8-3.582 8-7.994V44.994C72 40.579 68.41 37 64 37zm0 67a8 8 0 100-16 8 8 0 000 16z" fill-rule="evenodd"></path></svg> New in: 3.4</a> SteamOS re-enabled TRIM for the internal drive as well as supported external storage devices.</p><h3 class="">CryoByte33 Script</h3><p><a class="tc-tiddlylink-external" href="https://github.com/CryoByte33/steam-deck-utilities" rel="noopener noreferrer" target="_blank">https://github.com/CryoByte33/steam-deck-utilities</a></p><p>This script </p><ul><li>resize the Swap File</li><li>change the Swappiness</li><li>Enable/Disable TRIM on schedule</li><li>Run TRIM on /home</li></ul><blockquote class="tc-quote"><ol><li>In desktop mode, go to <a class="tc-tiddlylink-external" href="https://github.com/CryoByte33/steam-deck-utilities" rel="noopener noreferrer" target="_blank">https://github.com/CryoByte33/steam-deck-utilities</a>. In the 'Easy' section, right click &gt; save as.. <a class="tc-tiddlylink-external" href="https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/InstallCryoUtilities.desktop" rel="noopener noreferrer" target="_blank">InstallCryoUtilities.desktop</a>, then run it.</li><li>Double click the icon "CryoUtilities" on the desktop mode, you will be asked to set a password with the <code>passwd</code> command. If you forget your password, search for fixes on google.</li><li>Set the VRAM to 16GB if you can (bigger sizes doesn't seem to improve performances).</li><li>Set the swappiness, 1 is probably the best but feel free to experiment with different values. The default is 100.</li><li>Enable TRIM. It will be done on both the SSD and SD card. If there is a lot of "not in use" blocks, this can take a while but it's worth it.</li><li>You can uninstall the script with the uninstaller, but this wont reset the changes - to reset the changes, go trough the utility and set your settings to the default values.</li></ol></blockquote><dl><dt>What games benefit from the swap fix ?</dt></dl><p>Any game that use a combined 16GB for RAM and VRAM. The effect will depend on factors like asset compression, asset size and churn of data in memory.</p><dl><dt>Do the swap changes work for all game?</dt></dl><p>Yes, they work for any program on SteamOS.</p><dl><dt>Will an update revert the swap fix?</dt></dl><p>No, but reformatting the Deck will.</p><dl><dt>Does the swap fix work on Windows?</dt></dl><p>No, but Windows automatically use an equivalent called a page file. It's probably not as fast because the NTFS filesystem is very slow.</p><dl><dt>Are there any situations where the swap fix isn't a good option?</dt></dl><p>With a high swappiness set, memory-heavy CPU-bound process can take a performance hit. This probably wont affect gaming but it has been confirmed to impact KDEnLive and Blender. Setting the swappiness to 1 fix that issue.</p><dl><dt>Does the swap fix hurt emulators?</dt></dl><p>Probably not. Some users reported better performance in newer emulators like RPCS3, Yuzu and CEMU.</p><dl><dt>Will the swap fix hurt my SSD?</dt></dl><p>On contrary, setting the swappiness to 1 will reduce wear on the SSD over the stock configuration.</p><dl><dt>Do differently sized SSDs have a performance difference for swapping?</dt></dl><p>Yes, read and write speeds make a difference in the speed of swapping. In general, the larger the SSD, the faster it is (it will likely be a very small difference).</p><dl><dt>Why didn't Valve have a larger swap file by default?</dt></dl><p>Probably to avoid filling up over half of the 64GB model (?).</p><dl><dt>Why didn't Valve use a lower swappiness by default?</dt></dl><p>No idea.</p><h2 class="">Other fixes</h2><dl><dt>VRAM</dt></dl><blockquote><div class="warning">Red Dead Redemption 2 currently has a bug in SteamOS 3.3.2 and higher that causes heavy performances loss for VRAM size other than 1GB.</div></blockquote><p>GPU need their own memory on board to store thing as fast as possible. Regular RAM is too slow.
-APU = CPU (processor) + GPU (graphic processor) on a single chip.</p><p>Because the APU has to remain small, it has to share memory between the CPU and GPU, which is bad when both need as much as they can get. To get around this, there is a limit to how much RAM the GPU can use. On Steam the limit is set to 1GB for the GPU (so 15GB for the CPU), which is not enough for larger games and can lead to stutters when swapping data back and forth.</p><p>By getting into the bios of the deck, we can expend the memory of the gpu up to 4 gb, quadrupling the memory the gpu can use (and decreasing the memory of the CPU to 12 GB).</p><blockquote class="tc-quote"><ol><li>Power &gt; Shutdown</li><li>Hold power and volume up buttons until you hear a sound</li><li>Setup utility &gt; Advanced &gt; UMA Frame Buffer Size : Set from 1GB to 4GB</li><li>Press the steam deck select button , Yes to save and exit</li></ol></blockquote><p>To confirm if the VRAM was increased, go to settings &gt; system &gt; VRam Size</p><dl><dt>What games will 4GB of VRAM help?</dt></dl><p>Games that can use at least 1GB of VRAM, at least 8GB of RAM and use a total of 16GB of RAM and VRAM - basically, any time the CPU might evict data from VRAM.</p><dl><dt>Will it works on windows too?</dt></dl><p>Yes, it is OS independent.</p><dl><dt>Will the VRAM fix get reset when the Deck updates?</dt></dl><p>No, but a firmware update could reset it.</p><dl><dt>Are there any situations where this could cause degraded performance?</dt></dl><p>CPU-only tasks like compiling, CPU encoding, etc. can be affected negatively by this. The swap fix should remove the issue.</p><p>The deck can use up to 8gb for VRAM by default, but when the CPU needs more memory, it takes priority. Increasing the VRAM in the bios prevent the CPU from taking too much. Having more VRAM by default means that we limit the amount of swapping we needs to do for graphic specific data like models and textures, which frees up the SSD for more CPU centric swapping and can help with CPU performance if it needs more than 15 gb as a result.</p><p>Games that are confirmed to benefit from this and the swap fix: BeamNG.drive, Kerbal Space Program, Monster Hunter: Rise, Apex Legends, The Witcher 3, Sekiro, Emulators.</p><dl><dt>See also</dt></dl><p><a class="tc-tiddlylink tc-tiddlylink-resolves" href="#Troubleshooting%20performances">Troubleshooting performances</a></p>]]></content:encoded>
-	  <pubDate>Sat, 12 Nov 2022 15:40:44 GMT</pubDate>
-      <link>https://steamdeckguide.tiddlyhost.com/#Boosting%20gaming%20performances%3A%20SWAP%2C%20VRAM%2C%20TRIM</link>
-      <guid isPermaLink='true'>https://Telumire.github.io/SteamDeckGuide/index.html#Boosting%20gaming%20performances%3A%20SWAP%2C%20VRAM%2C%20TRIM</guid>
    </item>
 </channel>
 </rss>
