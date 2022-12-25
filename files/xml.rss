@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-  <atom:link href="https://Telumire.github.io/SteamDeckGuide//files/xml.rss" rel="self" type="application/rss+xml" />
+  <atom:link href="https://Telumire.github.io/SteamDeckGuide/files/xml.rss" rel="self" type="application/rss+xml" />
   <title>Steam Deck Guide</title>
-  <link>https://steamdeckguide.tiddlyhost.com/</link>
+  <link>https://steamdeckguide.tiddlyhost.com</link>
   <description>make the most of your Steam Deck</description>
   <language>en-EN</language>
-  <lastBuildDate>Sun, 25 Dec 2022 21:20:18 GMT</lastBuildDate>
+  <lastBuildDate>Sun, 25 Dec 2022 21:21:50 GMT</lastBuildDate>
 	<item>
       <title>$:/News/Video Guide : How to Make Desktop Navigation on the Steam Deck Better</title>
       <description></description>
       <category>article</category>
       <content:encoded><![CDATA[<p></p>]]></content:encoded>
 	  <pubDate>Sun, 25 Dec 2022 21:19:22 GMT</pubDate>
-      <link>https://steamdeckguide.tiddlyhost.com/#%24%3A%2FNews%2FVideo%20Guide%20%3A%20How%20to%20Make%20Desktop%20Navigation%20on%20the%20Steam%20Deck%20Better</link>
-      <guid isPermaLink='true'>https://steamdeckguide.tiddlyhost.com/#%24%3A%2FNews%2FVideo%20Guide%20%3A%20How%20to%20Make%20Desktop%20Navigation%20on%20the%20Steam%20Deck%20Better</guid>
+      <link>https://steamdeckguide.tiddlyhost.com#%24%3A%2FNews%2FVideo%20Guide%20%3A%20How%20to%20Make%20Desktop%20Navigation%20on%20the%20Steam%20Deck%20Better</link>
+      <guid isPermaLink='true'>https://steamdeckguide.tiddlyhost.com#%24%3A%2FNews%2FVideo%20Guide%20%3A%20How%20to%20Make%20Desktop%20Navigation%20on%20the%20Steam%20Deck%20Better</guid>
    </item>
 </channel>
 </rss>
