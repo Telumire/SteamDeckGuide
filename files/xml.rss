@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-  <atom:link href="https://Telumire.github.io/files/xml.rss" rel="self" type="application/rss+xml" />
+  <atom:link href="https://Telumire.github.io/steamdeckguide/xml.rss" rel="self" type="application/rss+xml" />
   <title>Steam Deck Guide</title>
   <link>https://steamdeckguide.tiddlyhost.com</link>
   <description>make the most of your Steam Deck</description>
   <language>en-EN</language>
-  <lastBuildDate>Wed, 11 Jan 2023 05:13:31 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Jan 2023 05:16:01 GMT</lastBuildDate>
 	<item>
       <title>GameCube and Wii emulator Dolphin got a big speed boost for Steam Deck</title>
       <description></description>
