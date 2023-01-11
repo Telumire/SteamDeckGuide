@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-  <atom:link href="https://Telumire.github.io/SteamDeckGuide/files/xml.rss" rel="self" type="application/rss+xml" />
+  <atom:link href="https://Telumire.github.io/files/xml.rss" rel="self" type="application/rss+xml" />
   <title>Steam Deck Guide</title>
   <link>https://steamdeckguide.tiddlyhost.com</link>
   <description>make the most of your Steam Deck</description>
   <language>en-EN</language>
-  <lastBuildDate>Sun, 25 Dec 2022 21:33:32 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Jan 2023 05:13:31 GMT</lastBuildDate>
 	<item>
+      <title>GameCube and Wii emulator Dolphin got a big speed boost for Steam Deck</title>
+      <description></description>
+      <category>article</category>
+      <content:encoded><![CDATA[<p><a class="tc-tiddlylink-external" href="https://www.gamingonlinux.com/2023/01/gamecube-and-wii-emulator-dolphin-got-a-big-speed-boost-for-steam-deck/" rel="noopener noreferrer" target="_blank">https://www.gamingonlinux.com/2023/01/gamecube-and-wii-emulator-dolphin-got-a-big-speed-boost-for-steam-deck/</a>The Dolphin emulator for GameCube and Wii games recently had a progress report showing the emulator is doing well, with lots of new features and performance improvements. The team has been using the Vulkan graphics API for better memory management and optimized it specifically for the Steam Deck, resulting in big performance gains for Super Mario Galaxy (85 FPS to 140 FPS in simulated testing). Users can expect better performance across the board, especially for those using Steam Deck.If you installed Dolphin via flatpak you'll need to go back to desktop mode and update.</p>]]></content:encoded>
+	  <pubDate>Wed, 11 Jan 2023 05:13:31 GMT</pubDate>
+      <link>https://steamdeckguide.tiddlyhost.com#GameCube%20and%20Wii%20emulator%20Dolphin%20got%20a%20big%20speed%20boost%20for%20Steam%20Deck</link>
+      <guid isPermaLink='true'>https://steamdeckguide.tiddlyhost.com#GameCube%20and%20Wii%20emulator%20Dolphin%20got%20a%20big%20speed%20boost%20for%20Steam%20Deck</guid>
+   </item><item>
       <title>$:/News/Video Guide : How to Make Desktop Navigation on the Steam Deck Better</title>
       <description></description>
       <category>article</category>
