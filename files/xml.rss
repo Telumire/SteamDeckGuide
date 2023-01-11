@@ -6,13 +6,13 @@
   <link>https://steamdeckguide.tiddlyhost.com</link>
   <description>make the most of your Steam Deck</description>
   <language>en-EN</language>
-  <lastBuildDate>Wed, 11 Jan 2023 05:16:01 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Jan 2023 05:17:55 GMT</lastBuildDate>
 	<item>
       <title>GameCube and Wii emulator Dolphin got a big speed boost for Steam Deck</title>
       <description></description>
       <category>article</category>
-      <content:encoded><![CDATA[<p><a class="tc-tiddlylink-external" href="https://www.gamingonlinux.com/2023/01/gamecube-and-wii-emulator-dolphin-got-a-big-speed-boost-for-steam-deck/" rel="noopener noreferrer" target="_blank">https://www.gamingonlinux.com/2023/01/gamecube-and-wii-emulator-dolphin-got-a-big-speed-boost-for-steam-deck/</a>The Dolphin emulator for GameCube and Wii games recently had a progress report showing the emulator is doing well, with lots of new features and performance improvements. The team has been using the Vulkan graphics API for better memory management and optimized it specifically for the Steam Deck, resulting in big performance gains for Super Mario Galaxy (85 FPS to 140 FPS in simulated testing). Users can expect better performance across the board, especially for those using Steam Deck.If you installed Dolphin via flatpak you'll need to go back to desktop mode and update.</p>]]></content:encoded>
-	  <pubDate>Wed, 11 Jan 2023 05:13:31 GMT</pubDate>
+      <content:encoded><![CDATA[<p>The Dolphin emulator for GameCube and Wii games recently had a progress report showing the emulator is doing well, with lots of new features and performance improvements. The team has been using the Vulkan graphics API for better memory management and optimized it specifically for the Steam Deck, resulting in big performance gains for Super Mario Galaxy (85 FPS to 140 FPS in simulated testing). Users can expect better performance across the board, especially for those using Steam Deck.If you installed Dolphin via flatpak you'll need to go back to desktop mode and update.Full article: <a class="tc-tiddlylink-external" href="https://www.gamingonlinux.com/2023/01/gamecube-and-wii-emulator-dolphin-got-a-big-speed-boost-for-steam-deck/" rel="noopener noreferrer" target="_blank">https://www.gamingonlinux.com/2023/01/gamecube-and-wii-emulator-dolphin-got-a-big-speed-boost-for-steam-deck/</a></p>]]></content:encoded>
+	  <pubDate>Wed, 11 Jan 2023 05:17:55 GMT</pubDate>
       <link>https://steamdeckguide.tiddlyhost.com#GameCube%20and%20Wii%20emulator%20Dolphin%20got%20a%20big%20speed%20boost%20for%20Steam%20Deck</link>
       <guid isPermaLink='true'>https://steamdeckguide.tiddlyhost.com#GameCube%20and%20Wii%20emulator%20Dolphin%20got%20a%20big%20speed%20boost%20for%20Steam%20Deck</guid>
    </item><item>
