@@ -6,8 +6,16 @@
   <link>https://steamdeckguide.tiddlyhost.com</link>
   <description>make the most of your Steam Deck</description>
   <language>en-EN</language>
-  <lastBuildDate>Wed, 11 Jan 2023 05:17:55 GMT</lastBuildDate>
+  <lastBuildDate>Wed, 11 Jan 2023 19:53:41 GMT</lastBuildDate>
 	<item>
+      <title>BIG update to Proton coming (Steam Deck / Linux)</title>
+      <description></description>
+      <category>article</category>
+      <content:encoded><![CDATA[<p><a class="tc-tiddlylink-external" href="https://github.com/ValveSoftware/Proton/wiki/Changelog" rel="noopener noreferrer" target="_blank">https://github.com/ValveSoftware/Proton/wiki/Changelog</a>Available in Proton Experimental (as of 2023/01/06):* Now playable: One Piece: Pirate Warriors 4, Atelier Meruru, ToGather:Island, WARRIORS OROCHI 3 Ultimate Definitive Edition, Exceed - Gun Bullet Children, The Witcher 3: Wild Hunt, Gungrave G.O.R.E.* Fix Life is Strange Remastered crashing at the end of chapter 2.* Fix Alt+Tab not working on Gnome 43.* Improve force feedback compatibility for BeamNG and Forza Horizon 5.* Fix regression with Mortal Combat X performance.* Fix OpenGL launch option for Youropa.* Fix video playback speed/stutter in METAL GEAR SOLID V: THE PHANTOM PAIN.* Halo Infinite now gets in-game. Many graphical artifacts still known on NVIDIA, minor artifacts expected on Deck and AMD Desktop.* Fix raytracing in Crysis Remastered.* Enable nvapi for many games.* Update file distribution method to save disk space.* Update dxvk to include the latest development work.* Update vkd3d-proton to include the latest development work.;Video<iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true" class="video " frameborder="0" src="https://www.youtube-nocookie.com/embed/kjXcr_lJETM?&amp;index=&amp;start=0&amp;end=&amp;autoplay=&amp;cc_lang_pref=&amp;cc_load_policy=&amp;color=&amp;controls=&amp;disablekb=&amp;fs=&amp;hl=&amp;iv_load_policy=3&amp;modestbranding=1" style="width:100%;max-height:100vh;aspect-ratio:16/9;"></iframe></p>]]></content:encoded>
+	  <pubDate>Wed, 11 Jan 2023 19:53:41 GMT</pubDate>
+      <link>https://steamdeckguide.tiddlyhost.com#BIG%20update%20to%20Proton%20coming%20(Steam%20Deck%20%2F%20Linux)</link>
+      <guid isPermaLink='true'>https://steamdeckguide.tiddlyhost.com#BIG%20update%20to%20Proton%20coming%20(Steam%20Deck%20%2F%20Linux)</guid>
+   </item><item>
       <title>GameCube and Wii emulator Dolphin got a big speed boost for Steam Deck</title>
       <description></description>
       <category>article</category>
