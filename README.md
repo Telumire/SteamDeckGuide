@@ -1,3 +1,5 @@
+https://www.telumire.be/SteamDeckGuide
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Improving+performances;Guides;Emulation;Customizations)](https://git.io/typing-svg)
 
 # SteamDeckGuide
