@@ -6,17 +6,16 @@
   <link>https://steamdeckguide.tiddlyhost.com</link>
   <description>make the most of your Steam Deck</description>
   <language>en-EN</language>
-  <lastBuildDate>Frid, 17 Mar 2023 00:34:06 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 13 Apr 2023 22:41:46 GMT</lastBuildDate>
 	<item>
-      <title>Tiddlyhost is down</title>
+      <title>Upcoming update will reduce the shader cache file sizes by 60%</title>
       <description></description>
       <category>article</category>
-      <content:encoded><![CDATA[You can access the wiki here: https://www.telumire.be/SteamDeckGuide]]></content:encoded>
-	  <pubDate>Frid, 17 Mar 2023 00:08:21 GMT</pubDate>
-      <link>https://www.telumire.be/SteamDeckGuide</link>
-      <guid isPermaLink='true'>https://www.telumire.be/SteamDeckGuide</guid>
-   </item>
-	<item>
+      <content:encoded><![CDATA[<p><p>Good news: An upcoming <a class="tc-tiddlylink-external" href="https://www.phoronix.com/news/Mesa-23.1-RADV-Smaller-SF-Cache" rel="noopener noreferrer" target="_blank">open-source video driver update</a> will reduce the size of the shader cache files by around 60%. The update is expected to be released with Mesa driver 23.1 in early May and SteamOS 3.5.</p></p>]]></content:encoded>
+	  <pubDate>Thu, 13 Apr 2023 22:41:46 GMT</pubDate>
+      <link>https://steamdeckguide.tiddlyhost.com#Upcoming%20update%20will%20reduce%20the%20shader%20cache%20file%20sizes%20by%2060%25</link>
+      <guid isPermaLink='true'>https://steamdeckguide.tiddlyhost.com#Upcoming%20update%20will%20reduce%20the%20shader%20cache%20file%20sizes%20by%2060%25</guid>
+   </item><item>
       <title>Steam Deck 1 year discount anniversary !</title>
       <description></description>
       <category>article</category>
